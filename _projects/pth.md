@@ -1,0 +1,9 @@
+---
+layout: page
+title: 박택현
+description: MS Student
+img: /assets/img/박택현.png
+importance: 12
+category: current
+redirect: https://github.com/Thrillcrazyer
+---

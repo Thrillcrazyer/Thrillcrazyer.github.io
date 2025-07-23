@@ -1,0 +1,9 @@
+---
+layout: page
+title: 박기군
+description: PhD
+img: /assets/img/박기군.jpg
+importance: 12
+category: alumni
+redirect: https://scholar.google.com/citations?hl=en&user=2G6r0iUAAAAJ
+---

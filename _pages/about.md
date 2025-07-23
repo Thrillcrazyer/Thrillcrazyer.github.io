@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>BAELAB</a>. Pusan National University, Busan.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: bae.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Room</p> <a>607</a>
+    <p>10th Engineering Building</p>
+    <p>Pusan National university</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+The Bigdata Analytics Engineering (BAE) laboratory uses data to find solutions to various problems in the industry and conduct research necessary for servitization and systematization of them. Cloud computing and IoT, the core technologies of the Fourth Industrial Revolution, produce a lot of data, and many industries are looking for hidden knowledge to gain competitiveness from it. To this end, we intend to increase efficiency and productivity in industries such as manufacturing, logistics, and finance by utilizing artificial intelligence and big data technologies. Therefore, we study the methodologies to find hidden keys to process productivity and service competitiveness through data, and to build more systematic operational processes to systematically secure data to gain enterprise competitiveness. To this end, our labs study data analytics and process science and find the value that businesses need.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+BAE Lab encompasses smart technology elements such as artificial intelligence (Deep Learning, Reinforcement Learning), big data, process mining, and cloud computing, and applies them to port logistics, shipbuilding, manufacturing, and service industries. Our research covers the implementation of pilot systems required for the development, service and commercialization of key source technologies. And we are working on technology transfer and commercialization through cooperation with domestic startups..
