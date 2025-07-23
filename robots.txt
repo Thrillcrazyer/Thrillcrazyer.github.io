@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://thrillcrazyer.github.io//BAELAB/sitemap.xml
+Sitemap: https://Thrillcrazyer.github.io//sitemap.xml
