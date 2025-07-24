@@ -418,10 +418,12 @@ ninja.data = [{
           section: "News",},{id: "news-selamat-tinggal-dan-selamat-️-mingi-han-has-submitted-a-paper-to-the-journal-of-the-korean-institute-of-industrial-engineers-jkiie",
           title: 'Selamat tinggal dan selamat! 🏝️ 🌋🐚 !!! Mingi Han has submitted a paper...',
           description: "",
-          section: "News",},{id: "news-김도희-권재은-shiok-ah-dohee-kim-and-jaeeun-kwon-have-invited-in-informs-international-2025",
-          title: '김도희, 권재은 !! Shiok ah 🇸🇬🦁🌺~! Dohee Kim and Jaeeun Kwon have invited...',
+          section: "News",},{id: "news-informs-international-2025-invitation-with-김도희-권재은",
+          title: 'INFORMS International 2025 Invitation with 김도희, 권재은',
           description: "",
-          section: "News",},{id: "projects-project-1",
+          section: "News",handler: () => {
+              window.location.href = "/news/informs/";
+            },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
