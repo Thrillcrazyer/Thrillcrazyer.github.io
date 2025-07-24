@@ -23,6 +23,9 @@
               {% else %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}
+              {% if item.author %}
+                <br><small class="text-muted">by {{ item.author }}</small>
+              {% endif %}
             </td>
           </tr>
         {% endfor %}
