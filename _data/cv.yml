@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: 배혜림
     - name: Date of Birth
       value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: English, Korean
 
 - title: Education
   type: time_table

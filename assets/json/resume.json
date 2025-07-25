@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
+    "name": "Haerim Bae",
+    "label": "Professor",
+    "image": "bae.jpg",
+    "email": "hrbae@busan.ac.kr",
     "phone": "(912) 123-4567",
     "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "Professor of Data Science at Busan National University.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -17,8 +17,8 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "HaerimBae",
+        "url": "https://twitter.com/HaerimBae"
       }
     ]
   },
