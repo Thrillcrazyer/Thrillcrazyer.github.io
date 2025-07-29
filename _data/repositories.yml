@@ -3,6 +3,7 @@ github_users:
   - simsunghyun
   - Thrillcrazyer
   - Lee-Kyeong-Hun
+  - PARKDAESAN
 
 repo_description_lines_max: 2
 
@@ -10,3 +11,5 @@ github_repos:
   - simsunghyun/CRU
   - yongzzai/Bagging-Recurrent-Event-Imputation
   - yongzzai/MuGAD
+  - Thrillcrazyer/LA-RCS
+
