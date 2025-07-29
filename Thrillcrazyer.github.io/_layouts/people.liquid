@@ -1,0 +1,43 @@
+// filepath: /root/Thrillcrazyer.github.io/_layouts/people.liquid
+---
+layout: default
+---
+<div class="people">
+  {% assign authors = site.data.authors %}
+  {% for author in authors %}
+    <div class="author">
+      <h2 class="author-name">{{ author.name }}</h2>
+      <p class="author-affiliation">{{ author.affiliation }}</p>
+
+      <div class="publications">
+        <h3>Publications</h3>
+        <div class="publication-list">
+          {% for entry in site.bibliography %}
+            {% if entry.author contains author.name %}
+              <div class="publication">
+                <div class="title">
+                  <a href="{{ entry.url }}">{{ entry.title }}</a>
+                </div>
+                <div class="details">
+                  <span class="journal">{{ entry.journal }}</span>,
+                  <span class="year">{{ entry.year }}</span>
+                </div>
+                <div class="links">
+                  {% if entry.pdf %}
+                    <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+                  {% endif %}
+                  {% if entry.html %}
+                    <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+                  {% endif %}
+                  {% if entry.doi %}
+                    <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
