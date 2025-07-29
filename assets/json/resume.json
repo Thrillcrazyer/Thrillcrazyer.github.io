@@ -3,16 +3,6 @@
     "name": "Hyerim Bae",
     "label": "Professor",
     "image": "bae.jpg",
-<<<<<<< HEAD
-    "email": "hrbae@busan.ac.kr",
-    "phone": "(051) 510-2733",
-    "summary": "Professor of Data Science at Busan National University.",
-    "location": {
-      "address": "2 Busandaehak-ro 63beon-gil, Geumjeong-gu, Busan",
-      "postalCode": "46241",
-      "city": "Geumjeong-gu",
-      "countryCode": "Korea",
-=======
     "email": "hrbae@pusan.ac.kr",
     "phone": "+82-51-510-2733",
     "url": "https://baelab.pusan.ac.kr/baelab",
@@ -22,7 +12,6 @@
       "postalCode": "46241",
       "city": "Busan",
       "countryCode": "KR",
->>>>>>> 86dae22225ae84c11ba1186ee7687a553af8779f
       "region": "Busan"
     },
     "profiles": [
