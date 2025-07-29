@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/people/";
           },
         },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -29,6 +29,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-collaborator",
+          title: "Collaborator",
+          description: "Professor Bae&#39;s collaborator",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/collaborator/";
           },
         },{id: "nav-projects",
           title: "Projects",
