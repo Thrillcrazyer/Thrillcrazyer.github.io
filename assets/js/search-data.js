@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
         },{id: "nav-publications",
           title: "Publications",
           description: "Research publications and academic works.",
@@ -25,14 +32,14 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "A showcase of BAELAB&#39;s innovative projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          title: "Repositories",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -407,128 +414,7 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-congratulation-daesan-park-and-hyunha-lee-have-accepted-their-presentation-in-informs-annual-meeting-2025",
-          title: 'Congratulation 🎓🍑 🇺🇸 !!! Daesan Park and Hyunha Lee have accepted their presentation...',
-          description: "",
-          section: "News",},{id: "news-selamat-tinggal-dan-selamat-️-mingi-han-has-submitted-a-paper-to-the-journal-of-the-korean-institute-of-industrial-engineers-jkiie",
-          title: 'Selamat tinggal dan selamat! 🏝️ 🌋🐚 !!! Mingi Han has submitted a paper...',
-          description: "",
-          section: "News",},{id: "news-informs-international-2025-invitation-with-김도희-권재은",
-          title: 'INFORMS International 2025 Invitation with 김도희, 권재은',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/informs/";
-            },},{id: "projects-아리프",
-          title: '아리프',
-          description: "Ph.D",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/alif/";
-            },},{id: "projects-김도희",
-          title: '김도희',
-          description: "PhD",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/doheekim/";
-            },},{id: "projects-박기군",
-          title: '박기군',
-          description: "PhD",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/kikunpark/";
-            },},{id: "projects-김성한",
-          title: '김성한',
-          description: "MS Student",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/ksh/";
-            },},{id: "projects-이경훈",
-          title: '이경훈',
-          description: "MS Student",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/lkh/";
-            },},{id: "projects-박택현",
-          title: '박택현',
-          description: "MS Student",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/pth/";
-            },},{id: "projects-서준혁",
-          title: '서준혁',
-          description: "Combined Master&#39;s and Ph.D",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/sjh/";
-            },},{id: "projects-이용재",
-          title: '이용재',
-          description: "M.S",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/yongzae/";
-            },},{id: "projects-권재은",
-          title: '권재은',
-          description: "Ph.D",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EA%B6%8C%EC%9E%AC%EC%9D%80/";
-            },},{id: "projects-김민섭",
-          title: '김민섭',
-          description: "Ph.D",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EA%B9%80%EB%AF%BC%EC%84%AD/";
-            },},{id: "projects-김소명",
-          title: '김소명',
-          description: "Combined Master&#39;s and Ph.D",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EA%B9%80%EC%86%8C%EB%AA%85/";
-            },},{id: "projects-김예린",
-          title: '김예린',
-          description: "Ph.D",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EA%B9%80%EC%98%88%EB%A6%B0/";
-            },},{id: "projects-박대산",
-          title: '박대산',
-          description: "M.S",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EB%B0%95%EB%8C%80%EC%82%B0/";
-            },},{id: "projects-박은희",
-          title: '박은희',
-          description: "M.S",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EB%B0%95%EC%9D%80%ED%9D%AC/";
-            },},{id: "projects-박한별",
-          title: '박한별',
-          description: "Ph.D",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EB%B0%95%ED%95%9C%EB%B3%84/";
-            },},{id: "projects-배혜림",
-          title: '배혜림',
-          description: "Professor",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EB%B0%B0%ED%98%9C%EB%A6%BC/";
-            },},{id: "projects-조상민",
-          title: '조상민',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EC%A1%B0%EC%83%81%EB%AF%BC/";
-            },},{id: "projects-김민희",
-          title: '김민희',
-          description: "M.S",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EC%B6%94%EC%A0%95%ED%98%B8/";
-            },},{id: "projects-하니프",
-          title: '하니프',
-          description: "Ph.D",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%ED%95%98%EB%8B%88%ED%94%84/";
-            },},{id: "projects-허재현",
-          title: '허재현',
-          description: "Ph.D",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%ED%97%88%EC%9E%AC%ED%98%84/";
-            },},{id: "projects-홍성문",
-          title: '홍성문',
-          description: "M.S",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%ED%99%8D%EC%84%B1%EB%AC%B8/";
-            },},{
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
