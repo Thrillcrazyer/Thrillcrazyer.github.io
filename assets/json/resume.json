@@ -1,8 +1,9 @@
 {
   "basics": {
-    "name": "Haerim Bae",
+    "name": "Hyerim Bae",
     "label": "Professor",
     "image": "bae.jpg",
+<<<<<<< HEAD
     "email": "hrbae@busan.ac.kr",
     "phone": "(051) 510-2733",
     "summary": "Professor of Data Science at Busan National University.",
@@ -11,13 +12,24 @@
       "postalCode": "46241",
       "city": "Geumjeong-gu",
       "countryCode": "Korea",
+=======
+    "email": "hrbae@pusan.ac.kr",
+    "phone": "+82-51-510-2733",
+    "url": "https://baelab.pusan.ac.kr/baelab",
+    "summary": "Professor of Industrial Engineering and Dean of the Graduate School of Data Science at Pusan National University, leading the Big Data Analytics and Engineering Lab.",
+    "location": {
+      "address": "Pusan National University, Jangjeon‑dong, Geumjeong‑gu, Busan",
+      "postalCode": "46241",
+      "city": "Busan",
+      "countryCode": "KR",
+>>>>>>> 86dae22225ae84c11ba1186ee7687a553af8779f
       "region": "Busan"
     },
     "profiles": [
       {
-        "network": "Twitter",
+        "network": "Linkedin",
         "username": "HaerimBae",
-        "url": "https://twitter.com/HaerimBae"
+        "url": "https://www.linkedin.com/in/%ED%98%9C%EB%A6%BC-%EB%B0%B0-184400b1/?originalSubdomain=au"
       }
     ]
   },

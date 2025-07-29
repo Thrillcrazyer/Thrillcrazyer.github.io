@@ -2,64 +2,45 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A showcase of BAELAB's innovative projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
 <div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
+  {% assign projects = site.projects | where: "category", "projects" %}
+  {% assign sorted_projects = projects | reverse %}
+  <div class="table-responsive">
+    <table class="table table-sm table-borderless">
+      <thead>
+        <tr>
+          <th scope="col" style="width: 25%">Date</th>
+          <th scope="col">Title</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for project in sorted_projects %}
+      <tr>
+          <th scope="row" style="width: 20%">
+            {{ project.start_date | date: '%b, %Y' }}
+            {% if project.end_date %}
+            ~<br> {{ project.end_date | date: '%b, %Y' }}
+            {% endif %}
+          </th>
+          <td>
+            {% if project.inline %}
+              {{ project.content | remove: '<p>' | remove: '</p>' | emojify }}
+            {% else %}
+              <a class="news-title" href="{{ project.url | relative_url }}">{{ project.title }}</a>
+            {% endif %}
+            {% if project.author %}
+              <br><small class="text-muted">by {{ project.author }}</small>
+            {% endif %}
+          </td>
+        </tr>
     {% endfor %}
-    </div>
+      </tbody>
+    </table>
   </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
 </div>

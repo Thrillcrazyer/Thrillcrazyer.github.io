@@ -9,7 +9,7 @@ profile:
   image: bae.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Room</p> <a>607</a>
+    <p>Room 500</p>
     <p>10th Engineering Building</p>
     <p>Pusan National university</p>
 

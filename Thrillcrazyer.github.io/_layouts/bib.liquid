@@ -1,0 +1,67 @@
+// filepath: /root/Thrillcrazyer.github.io/_layouts/people.liquid
+---
+layout: default
+---
+<div class="people">
+  {% assign authors = site.data.authors %}
+  {% for author in authors %}
+    <div class="author">
+      <h2 class="author-name">{{ author.name }}</h2>
+      <div class="author-publications">
+        {% assign author_papers = site.data.papers | where: "author", author.name %}
+        {% if author_papers.size > 0 %}
+          <ul>
+            {% for paper in author_papers %}
+              <li>
+                <div class="publication">
+                  <div class="publication-title">
+                    <a href="{{ paper.url }}">{{ paper.title }}</a>
+                  </div>
+                  <div class="publication-details">
+                    <span class="publication-journal">{{ paper.journal }}</span>,
+                    <span class="publication-year">{{ paper.year }}</span>
+                    {% if paper.volume %}
+                      , <span class="publication-volume">{{ paper.volume }}</span>
+                    {% endif %}
+                    {% if paper.pages %}
+                      , <span class="publication-pages">{{ paper.pages }}</span>
+                    {% endif %}
+                  </div>
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p>No publications found for this author.</p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+  .people {
+    margin: 20px;
+  }
+  .author {
+    margin-bottom: 40px;
+  }
+  .author-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .author-publications {
+    margin-left: 20px;
+  }
+  .publication {
+    margin-bottom: 5px;
+  }
+  .publication-title {
+    font-weight: bold;
+  }
+  .publication-details {
+    font-size: 14px;
+    color: gray;
+  }
+</style>

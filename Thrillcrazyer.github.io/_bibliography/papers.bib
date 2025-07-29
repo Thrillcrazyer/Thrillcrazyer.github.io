@@ -1,0 +1,45 @@
+// filepath: /root/Thrillcrazyer.github.io/_layouts/people.liquid
+---
+layout: default
+---
+<div class="people">
+  {% assign authors = site.data.authors %}
+  {% for author in authors %}
+    <div class="author">
+      <h2 class="author-name">{{ author.name }}</h2>
+      <p class="author-affiliation">{{ author.affiliation }}</p>
+
+      <div class="publications">
+        <h3>Publications</h3>
+        <div class="publication-list">
+          {% assign author_papers = site.data.papers | where: "author", author.name %}
+          {% for paper in author_papers %}
+            <div class="publication">
+              <div class="publication-title">
+                <a href="{{ paper.url }}">{{ paper.title }}</a>
+              </div>
+              <div class="publication-details">
+                <span class="publication-journal">{{ paper.journal }}</span>,
+                <span class="publication-year">{{ paper.year }}</span>
+              </div>
+              <div class="publication-links">
+                {% if paper.pdf %}
+                  <a href="{{ paper.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+                {% endif %}
+                {% if paper.html %}
+                  <a href="{{ paper.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+                {% endif %}
+                {% if paper.doi %}
+                  <a href="https://doi.org/{{ paper.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+          {% if author_papers.size == 0 %}
+            <p>No publications found for this author.</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
