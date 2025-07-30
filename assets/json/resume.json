@@ -47,15 +47,24 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Seoul, Seoul, South Korea",
+      "location": "Seoul, South Korea",
+      "area": "Industrial Engineering",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "1998-03-01",
+      "endDate": "2002-09-01",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["e-Business 문서관리: 워크플로우 프로세스를 위한 비즈니스 문서 변경관리, 공학박사학위논문, 서울대학교, 2002.08"]
+    },
+    {
+      "institution": "University of Seoul, Seoul, South Korea",
+      "location": "Seoul, South Korea",
+      "area": "Industrial Engineering",
+      "studyType": "Master",
+      "startDate": "1996-03-01",
+      "endDate": "1998-03-01",
+      "score": "10",
+      "courses": ["동적 워크플로우 관리기의 개발, 공학석사학위논문, 서울대학교, 1998.02"]
     }
   ],
   "awards": [
