@@ -1,5 +1,5 @@
 <div style="display: flex; flex-direction: column; gap: 1.5rem; align-items: stretch;">
-  <div id="coauthor-graph" style="height: 420px; min-height: 320px; border: 1px solid #222; box-shadow: 0 0 24px #000a; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);"></div>
+  <div id="coauthor-graph" style="height: 420px; min-height: 320px; border: 1px solid #222; box-shadow: 0 0 24px #000a; background: radial-gradient(ellipse at 60% 40%, #222 0%, #1a237e 60%, #000 100%); position: relative; overflow: hidden;"></div>
   <div id="coauthor-table" style="width: 100%;"></div>
 </div>
 <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -19,6 +19,17 @@
       // Remove any existing SVG (fix double box issue)
       d3.select(container).selectAll('svg').remove();
 
+
+      // --- Add cosmic starfield background ---
+      const starCount = 120;
+      const stars = Array.from({length: starCount}, () => ({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        r: Math.random() * 1.2 + 0.3,
+        o: Math.random() * 0.7 + 0.3
+      }));
+
+      // Insert SVG for graph and starfield
       const svg = d3.select(container)
         .append('svg')
         .attr('viewBox', [0, 0, width, height])
@@ -34,12 +45,30 @@
             })
         );
 
+      // Add starfield as a background layer
+      svg.append('g')
+        .attr('class', 'starfield')
+        .selectAll('circle')
+        .data(stars)
+        .join('circle')
+        .attr('cx', d => d.x)
+        .attr('cy', d => d.y)
+        .attr('r', d => d.r)
+        .attr('fill', '#fff')
+        .attr('opacity', d => d.o)
+        .attr('filter', 'url(#star-glow)');
+
+      // Add a filter for glowing stars
+      svg.append('defs').append('filter')
+        .attr('id', 'star-glow')
+        .html('<feGaussianBlur stdDeviation="1.2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>');
+
       const simulation = d3.forceSimulation(graph.nodes)
         .force('link', d3.forceLink(graph.links)
           .id(d => d.id)
-          .distance(d => 30 + Math.log(d.value + 1) * 10)
-          .strength(d => 0.1 + d.value * 0.02))
-        .force('charge', d3.forceManyBody().strength(-50))
+          .distance(d => 40 + Math.log(d.value + 1) * 14)
+          .strength(d => 0.06 + d.value * 0.012)) // 중력 약화
+        .force('charge', d3.forceManyBody().strength(-40)) // 약간 약화
         .force('center', d3.forceCenter(width / 2, height / 2));
 
       // Create a group for zoom/pan
@@ -55,22 +84,37 @@
         .join('line')
         .attr('stroke-width', d => 1.2 + Math.log(d.value));
 
-      // 채도 높은 쨍한 섬/배 팔레트
-      const islandShipColors = [
-        '#ffe600', // Vivid Yellow (island sand)
-        '#00e676', // Neon Green (island)
-        '#fff',    // White (island/ship)
-        '#00c853', // Strong Green (island)
-        '#ff9100', // Bright Orange (island/ship)
-        '#00b8ff', // Vivid Sky Blue (ship)
-        '#ffd600', // Vivid Yellow (ship)
-        '#ff1744', // Vivid Red (ship)
-        '#2979ff', // Bright Blue (ship)
-        '#d500f9', // Vivid Purple (ship)
+      // 우주(코스믹) 팔레트
+      const cosmicColors = [
+        '#00a1d5',   // Cosmic blue-violet
+        '#b39ddb',   // Nebula lavender
+        '#7c4dff',   // Cosmic purple
+        '#00e5ff',   // Electric blue
+        '#ff4081',   // Magenta pink
+        '#ffd740',   // Star yellow
+        '#536dfe',   // Deep blue
+        '#00bfae',   // Teal
+        '#ff6ec7',   // Pink nebula
+        '#311b92',   // Deep cosmic indigo
       ];
-      const color = d3.scaleOrdinal(islandShipColors);
-      // Find the top author (max value)
+      const color = d3.scaleOrdinal(cosmicColors);
+
+      // 노드에 우주 그림자(glow) 효과 추가 (작고 타이트한 원형 glow)
+      svg.append('defs').html(`
+        <filter id="cosmic-glow" x="-30%" y="-30%" width="160%" height="160%">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="blur"/>
+          <feMerge>
+            <feMergeNode in="blur"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+      `);
+
+      // Find the top author (max value) and top 5 authors
       let maxValue = Math.max(...graph.nodes.map(d => d.value));
+      // Sort nodes by value descending and get top 5
+      const top5 = [...graph.nodes].sort((a, b) => b.value - a.value).slice(0, 5).map(d => d.id);
+
       const nodeGroup = zoomable.append('g');
       const node = nodeGroup
         .selectAll('g')
@@ -83,15 +127,15 @@
           if (d.value === maxValue) return 12 + Math.sqrt(d.value); // 1등 노드 더 크게
           return 4 + Math.sqrt(d.value);
         })
-        .attr('fill', (d, i) => color(i % 10))
-        .attr('stroke', '#fff')
-        .attr('stroke-width', 1)
+        .attr('fill', (d, i) => color(i % cosmicColors.length))
+        .attr('filter', 'url(#cosmic-glow)')
         .call(d3.drag()
           .on('start', dragstarted)
           .on('drag', dragged)
           .on('end', dragended));
 
-      // Add name labels inside nodes (surname on top, given name below, always centered, show/hide by zoom)
+
+      // Add name labels: top 5 to the right, others inside
       function splitName(name) {
         // 콤마가 있으면 콤마 앞(성)만
         if (name.includes(',')) {
@@ -107,29 +151,58 @@
         }
         return name;
       }
+
+      // Main label (inside for non-top5, hidden for top5)
       const label = node.append('text')
         .text(d => splitName(d.id))
         .attr('text-anchor', 'middle')
         .attr('dominant-baseline', 'middle')
         .attr('pointer-events', 'none')
-        .attr('fill', '#111')
+        .attr('fill', '#fff')
         .attr('font-size', d => {
           const r = (d.value === maxValue) ? 12 + Math.sqrt(d.value) : 4 + Math.sqrt(d.value);
           return Math.max(8, r * 0.7); // 살짝 키움
         })
         .style('white-space', 'pre-line')
-        .style('display', 'none');
+        .style('display', d => top5.includes(d.id) ? 'none' : 'none'); // top5는 기본 숨김
+
+      // Side label for top 5
+      const sideLabel = node.append('text')
+        .filter(d => top5.includes(d.id))
+        .text(d => d.id)
+        .attr('x', d => {
+          const r = (d.value === maxValue) ? 12 + Math.sqrt(d.value) : 4 + Math.sqrt(d.value);
+          return r + 10;
+        })
+        .attr('y', 2)
+        .attr('text-anchor', 'start')
+        .attr('dominant-baseline', 'middle')
+        .attr('pointer-events', 'none')
+        .attr('fill', '#fff')
+        .attr('font-size', d => {
+          const r = (d.value === maxValue) ? 12 + Math.sqrt(d.value) : 4 + Math.sqrt(d.value);
+          return Math.max(12, r * 0.85);
+        })
+        .attr('stroke', '#222')
+        .attr('stroke-width', 2)
+        .attr('paint-order', 'stroke')
+        .style('display', 'block');
+
 
       // Show/hide labels based on zoom level and node size
       function updateLabelVisibility(transform) {
         label.each(function(d) {
           const r = (d.value === maxValue) ? 12 + Math.sqrt(d.value) : 4 + Math.sqrt(d.value);
           // threshold: label shows if node radius * zoom > 16
-          if ((r * transform.k) > 16) {
+          if (!top5.includes(d.id) && (r * transform.k) > 16) {
             d3.select(this).style('display', 'block');
           } else {
             d3.select(this).style('display', 'none');
           }
+        });
+        sideLabel.each(function(d) {
+          // top5는 항상 보이게
+          d3.select(this).style('display', top5.includes(d.id) ? 'block' : 'none');
         });
       }
       // Initial label visibility
@@ -192,34 +265,7 @@
         d.fy = null;
       }
 
-      // --- 표 생성 (# 제거, 여러명 한줄, 박스 하단, 글자 작게) ---
-      const tableDiv = document.getElementById('coauthor-table');
-      if (tableDiv) {
-        // 정렬: Papers 내림차순
-        const sorted = [...graph.nodes].sort((a, b) => b.value - a.value);
-        const cols = 5; // 한 줄에 5명씩
-        let html = `<table style="border-collapse:collapse;width:100%;font-size:0.7em;">
-          <thead><tr>`;
-        for (let c = 0; c < cols; c++) {
-          html += `<th style="text-align:center;padding:2px 6px;border-bottom:1px solid #ccc;">Author</th><th style="text-align:center;padding:2px 6px;border-bottom:1px solid #ccc;${c < cols-1 ? 'border-right:2px solid #888;' : ''}">Papers</th>`;
-        }
-        html += `</tr></thead><tbody>`;
-        for (let i = 0; i < sorted.length; i += cols) {
-          html += '<tr>';
-          for (let j = 0; j < cols; j++) {
-            const idx = i + j;
-            if (idx < sorted.length) {
-              const d = sorted[idx];
-              html += `<td style="text-align:left;padding:2px 6px;">${d.id}</td><td style="text-align:center;padding:2px 6px;${j < cols-1 ? 'border-right:2px solid #888;' : ''}">${d.value}</td>`;
-            } else {
-              html += `<td></td><td></td>`;
-            }
-          }
-          html += '</tr>';
-        }
-        html += '</tbody></table>';
-        tableDiv.innerHTML = html;
-      }
+      // ...표 생성 코드 제거됨...
     });
 })();
 </script>
