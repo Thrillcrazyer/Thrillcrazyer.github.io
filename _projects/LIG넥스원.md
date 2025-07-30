@@ -7,5 +7,6 @@ author: 국방기술진흥연구소-LIG넥스원
 description: 레이더 무기체계 주요 구성품의 CBM+ 솔루션 알고리즘 개발
 importance: 1
 category: projects
+inline: false
 related_publications: false
 ---
