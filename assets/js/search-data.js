@@ -16,12 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "nav-blog",
-          title: "Blog",
+        },{id: "nav-photos",
+          title: "Photos",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/photos/";
           },
         },{id: "nav-publications",
           title: "Publications",
@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-collaborator",
-          title: "Collaborator",
-          description: "Professor Bae&#39;s collaborator",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/collaborator/";
-          },
         },{id: "nav-projects",
           title: "Projects",
           description: "A showcase of BAELAB&#39;s innovative projects.",
@@ -44,21 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{
+        },{id: "post-a-post-with-disqus-comments",
+        
+          title: "a post with disqus comments",
+        
+        description: "an example of a blog post with disqus comments",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/AboutBAELAB/";
+          
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
