@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: BAELAB # the website title (if blank, full name will be used instead)
-first_name: Haerim
+first_name: Hyerim
 middle_name:
 last_name: Bae
 contact_note: >
@@ -11,8 +11,9 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   BAE Lab at Pusan National University - Advanced research in electrical and electronic engineering, 
   focusing on cutting-edge technologies and innovative solutions for the future.
-
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+footer_text: >
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: Busan, Pusan National University, Data Science, Industrial Engineering, Lab, Bae Lab
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🛳️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -96,7 +97,6 @@ pagination:
 related_blog_posts:
   enabled: true
   max_related: 5
-
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
@@ -149,9 +149,12 @@ collections:
     output: true
   projects:
     output: true
-  collections:
   people:
     output: true
+  photo:
+    output: true
+  collections:
+  
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -264,8 +267,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Bae]
+  first_name: [Hyerim]
 
   style: apa
   locale: en
