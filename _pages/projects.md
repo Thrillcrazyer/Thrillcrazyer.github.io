@@ -23,9 +23,9 @@ horizontal: false
       {% for project in sorted_projects %}
       <tr>
           <th scope="row" style="width: 20%">
-            {{ project.start_date | date: '%b, %Y' }}
+            {{ project.start_date | date: '%Y' }}
             {% if project.end_date %}
-            ~<br> {{ project.end_date | date: '%b, %Y' }}
+            ~<br> {{ project.end_date | date: '%Y' }}
             {% endif %}
           </th>
           <td>
