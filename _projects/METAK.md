@@ -7,5 +7,6 @@ author: 정보통신산업진흥원-(주)심스리얼리티
 description: META K-PORT 지능화 물류 플랫폼
 importance: 1
 category: projects
+inline: true
 related_publications: false
 ---
