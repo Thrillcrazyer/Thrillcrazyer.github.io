@@ -82,20 +82,42 @@
         .join('line')
         .attr('stroke-width', d => 1.2 + Math.log(d.value));
 
-      // 우주(코스믹) 팔레트
-      const cosmicColors = [
-        '#00a1d5',   // Cosmic blue-violet
-        '#b39ddb',   // Nebula lavender
-        '#7c4dff',   // Cosmic purple
-        '#00e5ff',   // Electric blue
-        '#ff4081',   // Magenta pink
-        '#ffd740',   // Star yellow
-        '#536dfe',   // Deep blue
-        '#00bfae',   // Teal
-        '#ff6ec7',   // Pink nebula
-        '#311b92',   // Deep cosmic indigo
+
+      // 네온/야광 팔레트 (더 밝고 화려하게)
+      const neonColors = [
+        '#39ff14', // Neon green
+        '#00fff7', // Neon cyan
+        '#ff00ea', // Neon magenta
+        '#ffe600', // Neon yellow
+        '#ff1744', // Neon red
+        '#00e676', // Neon mint
+        '#2979ff', // Neon blue
+        '#f50057', // Neon pink
+        '#00ff90', // Neon teal
+        '#fff700', // Neon lemon
+        '#ff6ec7', // Pink nebula
+        '#00bfff', // Electric blue
+        '#ffb300', // Neon orange
+        '#e040fb', // Neon purple
+        '#76ff03', // Neon lime
       ];
-      const color = d3.scaleOrdinal(cosmicColors);
+      const color = d3.scaleOrdinal(neonColors);
+
+      // 각 색상별로 glow filter 동적 생성
+      const defs = svg.append('defs');
+      neonColors.forEach((c, i) => {
+        defs.append('filter')
+          .attr('id', `neon-glow-${i}`)
+          .html(`
+            <feGaussianBlur stdDeviation="7" result="blur"/>
+            <feFlood flood-color="${c}" flood-opacity="0.55"/>
+            <feComposite in2="blur" operator="in"/>
+            <feMerge>
+              <feMergeNode/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          `);
+      });
 
       // 노드에 우주 그림자(glow) 효과 추가 (작고 타이트한 원형 glow)
       svg.append('defs').html(`
@@ -120,13 +142,32 @@
         .join('g');
 
       // Draw circles
+
+      // 노드에 네온 glow와 트윙클 효과 적용
       node.append('circle')
         .attr('r', d => {
-          if (d.value === maxValue) return 12 + Math.sqrt(d.value); // 1등 노드 더 크게
-          return 4 + Math.sqrt(d.value);
+          if (d.value === maxValue) return 14 + Math.sqrt(d.value); // 1등 노드 더 크게
+          return 6 + Math.sqrt(d.value);
         })
-        .attr('fill', (d, i) => color(i % cosmicColors.length))
-        .attr('filter', 'url(#cosmic-glow)')
+        .attr('fill', (d, i) => color(i % neonColors.length))
+        .attr('filter', (d, i) => `url(#neon-glow-${i % neonColors.length})`)
+        .attr('opacity', 1)
+        .each(function(d, i) {
+          // 트윙클(반짝임) 애니메이션: opacity를 0.85~1.0 사이로 작게 변화
+          function twinkle() {
+            const duration = 900 + Math.random() * 900;
+            const target = 0.85 + Math.random() * 0.15;
+            d3.select(this)
+              .transition()
+              .duration(duration)
+              .attr('opacity', target)
+              .transition()
+              .duration(duration)
+              .attr('opacity', 1)
+              .on('end', twinkle);
+          }
+          twinkle.call(this);
+        })
         .call(d3.drag()
           .on('start', dragstarted)
           .on('drag', dragged)
@@ -231,6 +272,43 @@
         tooltip.style('opacity', 0);
       });
 
+
+
+
+      // 이름만 추출 ("Kim, Minhee" → "Minhee", "Minhee Kim" → "Minhee", "김민희" → "민희")
+      function extractFirstName(name) {
+        if (name.includes(',')) {
+          // "성, 이름" 형태: 콤마 기준으로만 분리
+          const parts = name.split(',');
+          return parts[1] ? parts[1].trim() : '';
+        }
+        // 한글 이름: 2글자 이상이면 마지막 2글자
+        if (/^[가-힣]{2,}$/.test(name)) {
+          return name.slice(-2);
+        }
+        // 영문 이름: 공백으로 분리해서 첫 단어가 이름일 확률 높음
+        if (/^[A-Za-z ]+$/.test(name.trim())) {
+          return name.trim().split(/\s+/)[0];
+        }
+        return name;
+      }
+
+      // bib_search input이 생성될 때까지 재시도하며 값 입력
+      function setBibSearchValue(value, retries = 5) {
+        const searchBox = document.getElementById('bibsearch');
+        if (searchBox) {
+          searchBox.value = value;
+          searchBox.dispatchEvent(new Event('input', { bubbles: true }));
+          searchBox.focus();
+        } else if (retries > 0) {
+          setTimeout(() => setBibSearchValue(value, retries - 1), 200);
+        }
+      }
+
+      node.on('click', (event, d) => {
+        setBibSearchValue(extractFirstName(d.id));
+      });
+
       node.append('title').text(d => d.id);
 
       simulation.on('tick', () => {
@@ -262,6 +340,8 @@
         d.fx = null;
         d.fy = null;
       }
+
+      // ...표 생성 코드 제거됨...
     });
 })();
 </script>

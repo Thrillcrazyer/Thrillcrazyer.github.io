@@ -22,15 +22,15 @@ horizontal: false
       <tbody>
       {% for project in sorted_projects %}
       <tr>
-          <th scope="row" style="width: 20%">
-            {{ project.start_date | date: '%b, %Y' }}
+          <th scope="row" style="width: 15%">
+            {{ project.start_date | date: '%Y' }}
             {% if project.end_date %}
-            ~<br> {{ project.end_date | date: '%b, %Y' }}
+            ~ {{ project.end_date | date: '%Y' }}
             {% endif %}
           </th>
           <td>
             {% if project.inline %}
-              {{ project.content | remove: '<p>' | remove: '</p>' | emojify }}
+              <a>{{ project.title }}</a>
             {% else %}
               <a class="news-title" href="{{ project.url | relative_url }}">{{ project.title }}</a>
             {% endif %}
