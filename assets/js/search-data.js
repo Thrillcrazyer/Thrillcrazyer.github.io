@@ -223,92 +223,55 @@ ninja.data = [{
           description: "2025년 중국 사진",
           section: "Photo",handler: () => {
               window.location.href = "/photo/%EC%A4%91%EA%B5%AD2024/";
-            },},{id: "projects-레이더-무기체계-주요-구성품의-cbm-솔루션-알고리즘-개발",
-          title: '레이더 무기체계 주요 구성품의 CBM+ 솔루션 알고리즘 개발',
+            },},{id: "projects-",
+          title: '',
           description: "레이더 무기체계 주요 구성품의 CBM+ 솔루션 알고리즘 개발",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/LIG%EB%84%A5%EC%8A%A4%EC%9B%90/";
-            },},{id: "projects-meta-k-port-지능화-물류-플랫폼",
-          title: 'META K-PORT 지능화 물류 플랫폼',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "META K-PORT 지능화 물류 플랫폼",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/METAK/";
-            },},{id: "projects-감귤-가격-및-출하량-예측-모델-개발",
-          title: '감귤 가격 및 출하량 예측 모델 개발',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "감귤 가격 및 출하량 예측 모델 개발",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EA%B0%90%EA%B7%A4/";
-            },},{id: "projects-공기압축기-데이터-분석-및-고장예측-연구-용역",
-          title: '공기압축기 데이터 분석 및 고장예측 연구 용역',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "공기압축기 데이터 분석 및 고장예측 연구 용역",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EA%B3%B5%EA%B8%B0%EC%95%95%EC%B6%95%EA%B8%B0/";
-            },},{id: "projects-지역산업-혁신을-위한-지역-수요-중심-데이터사이언스-융합인재-양성사업",
-          title: '지역산업 혁신을 위한 지역 수요 중심 데이터사이언스 융합인재 양성사업',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "지역산업 혁신을 위한 지역 수요 중심 데이터사이언스 융합인재 양성사업",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EB%8D%B0%EC%82%AC%EC%A0%84/";
-            },},{id: "projects-부산항-컨테이너-하역-작업수행-요구시간-ai-예측-모델-개발",
-          title: '부산항 컨테이너 하역 작업수행 요구시간 AI 예측 모델 개발',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "부산항 컨테이너 하역 작업수행 요구시간 AI 예측 모델 개발",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EB%B6%80%EC%82%B0%ED%95%AD%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88/";
-            },},{id: "projects-부산항-환적-업무-분석",
-          title: '부산항 환적 업무 분석',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "부산항 환적 업무 분석",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EB%B6%80%EC%82%B0%ED%95%AD%ED%99%98%EC%A0%81/";
-            },},{id: "projects-블록물류-최적화",
-          title: '블록물류 최적화',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "블록물류 최적화",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EB%B8%94%EB%A1%9D%EB%AC%BC%EB%A5%98%EC%B5%9C%EC%A0%81%ED%99%94/";
-            },},{id: "projects-빅데이터-인공지능-기반-물류-연계-최적화-기술-개발",
-          title: '빅데이터/인공지능 기반 물류 연계 최적화 기술 개발',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "빅데이터/인공지능 기반 물류 연계 최적화 기술 개발",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%AC%BC%EB%A5%98%EC%B5%9C%EC%A0%81%ED%99%94/";
-            },},{id: "projects-해사안전의-정량적평가를-위한-지표-indicator-개발",
-          title: '해사안전의 정량적평가를 위한 지표(Indicator) 개발',
-          description: "해사안전의 정량적평가를 위한 지표(Indicator) 개발",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%97%90%EC%96%B4%EC%86%94%EB%A3%A8%EC%85%98%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EB%A7%88%EC%9D%B4%EB%8B%9D%20copy/";
-            },},{id: "projects-스마트-에어솔루션-사용자-별-행동-모델링을-위한-프로세스-마이닝-및-인공지능-기반의-공감지능-affectionate-intelligence-ai-기술개발",
-          title: '스마트 에어솔루션 사용자 별 행동 모델링을 위한 프로세스 마이닝 및 인공지능 기반의 공감지능(Affectionate...',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "스마트 에어솔루션 사용자 별 행동 모델링을 위한 프로세스 마이닝 및 인공지능 기반의 공감지능(Affectionate Intelligence, AI) 기술개발",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%97%90%EC%96%B4%EC%86%94%EB%A3%A8%EC%85%98%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EB%A7%88%EC%9D%B4%EB%8B%9D/";
-            },},{id: "projects-인공지능-기반-xpl-방법론-연구",
-          title: '인공지능 기반 XPL 방법론 연구',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "인공지능 기반 XPL 방법론 연구 한국연구재단(중견후속연구)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EC%A4%91%EA%B2%AC%EA%B3%BC%EC%A0%9C/";
-            },},{id: "projects-차량반출입예약시스템-해외-항만-적용사례-분석",
-          title: '차량반출입예약시스템 해외 항만 적용사례 분석',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "차량반출입예약시스템 해외 항만 적용사례 분석",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%EC%B0%A8%EB%9F%89%EB%B0%98%EC%B6%9C%EC%9E%85%EC%98%88%EC%95%BD%EC%8B%9C%EC%8A%A4%ED%85%9C/";
-            },},{id: "projects-인간-중심-탄소-중립-글로벌-공급망-연구센터",
-          title: '인간 중심 - 탄소 중립 글로벌 공급망 연구센터',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "인간 중심 - 탄소 중립 글로벌 공급망 연구센터",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%ED%83%84%EC%86%8C%EC%A4%91%EB%A6%BD%EA%B8%80%EB%A1%9C%EB%B2%8C%EA%B3%B5%EA%B8%89%EB%A7%9D%EC%97%B0%EA%B5%AC%EC%84%BC%ED%84%B0/";
-            },},{id: "projects-항만-적정하역능력-산정을-위한-데이터-확보방안-수립-연구용역",
-          title: '항만 적정하역능력 산정을 위한 데이터 확보방안 수립 연구용역',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "항만 적정하역능력 산정을 위한 데이터 확보방안 수립 연구용역",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%ED%95%AD%EB%A7%8C%EC%A0%81%EC%A0%95%ED%95%98%EC%97%AD%EB%8A%A5%EB%A0%A5/";
-            },},{id: "projects-해상교통-환경-특화-대형행동모형-개발을-위한-에이전트-기술-개발",
-          title: '해상교통 환경 특화 대형행동모형 개발을 위한 에이전트 기술 개발',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "해상교통 환경 특화 대형행동모형 개발을 위한 에이전트 기술 개발",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%ED%95%B4%EC%96%91LAM/";
-            },},{id: "projects-해양플랫폼-통합통제-관리-기술-개발",
-          title: '해양플랫폼 통합통제 관리 기술 개발',
+          section: "Projects",},{id: "projects-",
+          title: '',
           description: "해양플랫폼 통합통제 관리 기술 개발",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/%ED%95%B4%EC%96%91%ED%94%8C%EB%9E%AB%ED%8F%BC%ED%86%B5%ED%95%A9%ED%86%B5%EC%A0%9C/";
-            },},{
+          section: "Projects",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
