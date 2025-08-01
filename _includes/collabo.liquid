@@ -14,7 +14,14 @@
     .then(graph => {
       // Draw graph
       const width = container.clientWidth || 800;
-      const height = width * 9 / 16;
+      let height;
+      if (width < 500) {
+        // 모바일: 정사각형 또는 최소 높이 보장
+        height = Math.max(width, 320);
+      } else {
+        // 데스크탑: 16:9 비율
+        height = width * 9 / 16;
+      }
 
       // Remove any existing SVG (fix double box issue)
       d3.select(container).selectAll('svg').remove();
