@@ -3,22 +3,22 @@
     {
       "id": "Kamal, Imam Mustafa",
       "group": 1,
-      "value": 15
+      "value": 16
     },
     {
       "id": "Bae, Hyerim",
       "group": 1,
-      "value": 69
+      "value": 77
     },
     {
       "id": "Liu, Ling",
       "group": 1,
-      "value": 5
+      "value": 6
     },
     {
       "id": "Kim, Dohee",
       "group": 1,
-      "value": 22
+      "value": 25
     },
     {
       "id": "Lee, Eunju",
@@ -28,12 +28,12 @@
     {
       "id": "Sim, Sunghyun",
       "group": 1,
-      "value": 12
+      "value": 13
     },
     {
       "id": "Park, Kikun",
       "group": 1,
-      "value": 12
+      "value": 14
     },
     {
       "id": "Bae, Joonsoo",
@@ -108,7 +108,7 @@
     {
       "id": "Lee, Gawon",
       "group": 1,
-      "value": 2
+      "value": 3
     },
     {
       "id": "Park, Segil",
@@ -118,7 +118,7 @@
     {
       "id": "Park, Hanbyeol",
       "group": 1,
-      "value": 4
+      "value": 7
     },
     {
       "id": "Kim, Kihun",
@@ -128,7 +128,7 @@
     {
       "id": "Kwon, Jaeeun",
       "group": 1,
-      "value": 1
+      "value": 2
     },
     {
       "id": "Kang, Eungjun",
@@ -138,7 +138,7 @@
     {
       "id": "Hanif, Ramadhan Muhammad",
       "group": 1,
-      "value": 3
+      "value": 4
     },
     {
       "id": "Lee, Jungho",
@@ -146,7 +146,7 @@
       "value": 1
     },
     {
-      "id": "Nur, Iman Alif",
+      "id": "Iman, Alif Nur",
       "group": 1,
       "value": 2
     },
@@ -163,7 +163,7 @@
     {
       "id": "Lee, Sangjae",
       "group": 1,
-      "value": 4
+      "value": 5
     },
     {
       "id": "Ramadhan, Muhammad Hanif",
@@ -172,11 +172,6 @@
     },
     {
       "id": "Choi, Keonwoo",
-      "group": 1,
-      "value": 1
-    },
-    {
-      "id": "Park, Hanbyeoul",
       "group": 1,
       "value": 1
     },
@@ -358,7 +353,7 @@
     {
       "id": "Heo, Jaehyeon",
       "group": 1,
-      "value": 3
+      "value": 4
     },
     {
       "id": "Kim, MinSeop",
@@ -406,9 +401,9 @@
       "value": 1
     },
     {
-      "id": "Cho, Sangmin",
+      "id": "Jo, Sangmin",
       "group": 1,
-      "value": 2
+      "value": 3
     },
     {
       "id": "Kang, Seongpil",
@@ -418,7 +413,7 @@
     {
       "id": "Park, Mingyu",
       "group": 1,
-      "value": 1
+      "value": 3
     },
     {
       "id": "Park, Yeonkyung",
@@ -428,7 +423,7 @@
     {
       "id": "Park, Daesan",
       "group": 1,
-      "value": 1
+      "value": 2
     },
     {
       "id": "Park, Dongyoon",
@@ -529,28 +524,73 @@
       "id": "Yoon, Heeseong",
       "group": 1,
       "value": 1
+    },
+    {
+      "id": "Kim, Minseob",
+      "group": 1,
+      "value": 2
+    },
+    {
+      "id": "Kwon, Jaeun",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "id": "Park, Yeongyeong",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "id": "Nur, Iman Alif",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "id": "Jo, Suhyeon",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "id": "Jeong, Hyokyung",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "id": "Sim, Seonghyun",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "id": "Yoon, Bori",
+      "group": 1,
+      "value": 1
+    },
+    {
+      "id": "Park, SeKil",
+      "group": 1,
+      "value": 1
     }
   ],
   "links": [
     {
       "source": "Bae, Hyerim",
       "target": "Kamal, Imam Mustafa",
-      "value": 15
+      "value": 16
     },
     {
       "source": "Bae, Hyerim",
       "target": "Liu, Ling",
-      "value": 5
+      "value": 6
     },
     {
       "source": "Kamal, Imam Mustafa",
       "target": "Liu, Ling",
-      "value": 2
+      "value": 3
     },
     {
       "source": "Bae, Hyerim",
       "target": "Kim, Dohee",
-      "value": 22
+      "value": 25
     },
     {
       "source": "Bae, Hyerim",
@@ -575,7 +615,7 @@
     {
       "source": "Bae, Hyerim",
       "target": "Sim, Sunghyun",
-      "value": 12
+      "value": 13
     },
     {
       "source": "Kim, Dohee",
@@ -585,7 +625,7 @@
     {
       "source": "Bae, Hyerim",
       "target": "Park, Kikun",
-      "value": 12
+      "value": 14
     },
     {
       "source": "Park, Kikun",
@@ -835,7 +875,7 @@
     {
       "source": "Bae, Hyerim",
       "target": "Lee, Gawon",
-      "value": 2
+      "value": 3
     },
     {
       "source": "Bae, Hyerim",
@@ -900,12 +940,12 @@
     {
       "source": "Bae, Hyerim",
       "target": "Kwon, Jaeeun",
-      "value": 1
+      "value": 2
     },
     {
       "source": "Bae, Hyerim",
       "target": "Park, Hanbyeol",
-      "value": 4
+      "value": 7
     },
     {
       "source": "Kang, Eungjun",
@@ -945,7 +985,7 @@
     {
       "source": "Kwon, Jaeeun",
       "target": "Park, Hanbyeol",
-      "value": 1
+      "value": 2
     },
     {
       "source": "Kwon, Jaeeun",
@@ -955,12 +995,12 @@
     {
       "source": "Park, Hanbyeol",
       "target": "Park, Kikun",
-      "value": 2
+      "value": 3
     },
     {
       "source": "Bae, Hyerim",
       "target": "Hanif, Ramadhan Muhammad",
-      "value": 3
+      "value": 4
     },
     {
       "source": "Bae, Hyerim",
@@ -980,7 +1020,7 @@
     {
       "source": "Hanif, Ramadhan Muhammad",
       "target": "Park, Kikun",
-      "value": 1
+      "value": 2
     },
     {
       "source": "Lee, Gawon",
@@ -990,7 +1030,7 @@
     {
       "source": "Lee, Gawon",
       "target": "Park, Kikun",
-      "value": 1
+      "value": 2
     },
     {
       "source": "Lee, Jungho",
@@ -999,12 +1039,17 @@
     },
     {
       "source": "Bae, Hyerim",
+      "target": "Iman, Alif Nur",
+      "value": 2
+    },
+    {
+      "source": "Bae, Hyerim",
       "target": "Mustafa, Kamal Imam",
       "value": 1
     },
     {
-      "source": "Bae, Hyerim",
-      "target": "Nur, Iman Alif",
+      "source": "Hanif, Ramadhan Muhammad",
+      "target": "Iman, Alif Nur",
       "value": 2
     },
     {
@@ -1023,9 +1068,19 @@
       "value": 1
     },
     {
-      "source": "Hanif, Ramadhan Muhammad",
-      "target": "Nur, Iman Alif",
-      "value": 2
+      "source": "Iman, Alif Nur",
+      "target": "Kim, Dohee",
+      "value": 1
+    },
+    {
+      "source": "Iman, Alif Nur",
+      "target": "Lee, Yongjae",
+      "value": 1
+    },
+    {
+      "source": "Iman, Alif Nur",
+      "target": "Mustafa, Kamal Imam",
+      "value": 1
     },
     {
       "source": "Kim, Dohee",
@@ -1038,23 +1093,8 @@
       "value": 1
     },
     {
-      "source": "Kim, Dohee",
-      "target": "Nur, Iman Alif",
-      "value": 1
-    },
-    {
       "source": "Lee, Yongjae",
       "target": "Mustafa, Kamal Imam",
-      "value": 1
-    },
-    {
-      "source": "Lee, Yongjae",
-      "target": "Nur, Iman Alif",
-      "value": 1
-    },
-    {
-      "source": "Mustafa, Kamal Imam",
-      "target": "Nur, Iman Alif",
       "value": 1
     },
     {
@@ -1070,7 +1110,7 @@
     {
       "source": "Bae, Hyerim",
       "target": "Lee, Sangjae",
-      "value": 4
+      "value": 5
     },
     {
       "source": "Kim, Dohee",
@@ -1130,7 +1170,7 @@
     {
       "source": "Kim, Dohee",
       "target": "Park, Hanbyeol",
-      "value": 2
+      "value": 3
     },
     {
       "source": "Lee, Hyunjae",
@@ -1145,16 +1185,6 @@
     {
       "source": "Lee, Sangjae",
       "target": "Park, Hanbyeol",
-      "value": 1
-    },
-    {
-      "source": "Bae, Hyerim",
-      "target": "Park, Hanbyeoul",
-      "value": 1
-    },
-    {
-      "source": "Park, Hanbyeoul",
-      "target": "Park, Kikun",
       "value": 1
     },
     {
@@ -1188,17 +1218,17 @@
       "value": 1
     },
     {
-      "source": "Kim, Jinuk",
-      "target": "Nur, Iman Alif",
+      "source": "Iman, Alif Nur",
+      "target": "Kim, Jinuk",
       "value": 1
     },
     {
-      "source": "Kim, Jinuk",
+      "source": "Iman, Alif Nur",
       "target": "Son, Jeong Su",
       "value": 1
     },
     {
-      "source": "Nur, Iman Alif",
+      "source": "Kim, Jinuk",
       "target": "Son, Jeong Su",
       "value": 1
     },
@@ -1915,7 +1945,7 @@
     {
       "source": "Bae, Hyerim",
       "target": "Heo, Jaehyeon",
-      "value": 3
+      "value": 4
     },
     {
       "source": "Bae, Hyerim",
@@ -1975,7 +2005,7 @@
     {
       "source": "Heo, Jaehyeon",
       "target": "Kim, Dohee",
-      "value": 1
+      "value": 2
     },
     {
       "source": "Heo, Jaehyeon",
@@ -2084,13 +2114,13 @@
     },
     {
       "source": "Bae, Hyerim",
-      "target": "Cho, Sangmin",
-      "value": 2
+      "target": "Choo, Jeongho",
+      "value": 1
     },
     {
       "source": "Bae, Hyerim",
-      "target": "Choo, Jeongho",
-      "value": 1
+      "target": "Jo, Sangmin",
+      "value": 3
     },
     {
       "source": "Bae, Hyerim",
@@ -2103,29 +2133,9 @@
       "value": 1
     },
     {
-      "source": "Cho, Sangmin",
-      "target": "Choo, Jeongho",
+      "source": "Choo, Jeongho",
+      "target": "Jo, Sangmin",
       "value": 1
-    },
-    {
-      "source": "Cho, Sangmin",
-      "target": "Kang, Seongpil",
-      "value": 1
-    },
-    {
-      "source": "Cho, Sangmin",
-      "target": "Kim, Dohee",
-      "value": 2
-    },
-    {
-      "source": "Cho, Sangmin",
-      "target": "Lee, Hyunha",
-      "value": 1
-    },
-    {
-      "source": "Cho, Sangmin",
-      "target": "Lee, Yongjae",
-      "value": 2
     },
     {
       "source": "Choo, Jeongho",
@@ -2146,6 +2156,26 @@
       "source": "Choo, Jeongho",
       "target": "Lee, Yongjae",
       "value": 1
+    },
+    {
+      "source": "Jo, Sangmin",
+      "target": "Kang, Seongpil",
+      "value": 1
+    },
+    {
+      "source": "Jo, Sangmin",
+      "target": "Kim, Dohee",
+      "value": 2
+    },
+    {
+      "source": "Jo, Sangmin",
+      "target": "Lee, Hyunha",
+      "value": 1
+    },
+    {
+      "source": "Jo, Sangmin",
+      "target": "Lee, Yongjae",
+      "value": 2
     },
     {
       "source": "Kang, Seongpil",
@@ -2175,7 +2205,7 @@
     {
       "source": "Bae, Hyerim",
       "target": "Park, Mingyu",
-      "value": 1
+      "value": 3
     },
     {
       "source": "Bae, Hyerim",
@@ -2185,7 +2215,7 @@
     {
       "source": "Kim, Dohee",
       "target": "Park, Mingyu",
-      "value": 1
+      "value": 2
     },
     {
       "source": "Kim, Dohee",
@@ -2210,7 +2240,7 @@
     {
       "source": "Park, Hanbyeol",
       "target": "Park, Mingyu",
-      "value": 1
+      "value": 3
     },
     {
       "source": "Park, Hanbyeol",
@@ -2225,7 +2255,7 @@
     {
       "source": "Bae, Hyerim",
       "target": "Park, Daesan",
-      "value": 1
+      "value": 2
     },
     {
       "source": "Bae, Hyerim",
@@ -2233,19 +2263,19 @@
       "value": 1
     },
     {
-      "source": "Cho, Sangmin",
+      "source": "Jo, Sangmin",
       "target": "Park, Daesan",
       "value": 1
     },
     {
-      "source": "Cho, Sangmin",
+      "source": "Jo, Sangmin",
       "target": "Park, Dongyoon",
       "value": 1
     },
     {
       "source": "Kim, Dohee",
       "target": "Park, Daesan",
-      "value": 1
+      "value": 2
     },
     {
       "source": "Kim, Dohee",
@@ -2605,6 +2635,216 @@
     {
       "source": "Sim, Sunghyun",
       "target": "Yoon, Heeseong",
+      "value": 1
+    },
+    {
+      "source": "Bae, Hyerim",
+      "target": "Kim, Minseob",
+      "value": 2
+    },
+    {
+      "source": "Bae, Hyerim",
+      "target": "Kwon, Jaeun",
+      "value": 1
+    },
+    {
+      "source": "Bae, Hyerim",
+      "target": "Park, Yeongyeong",
+      "value": 1
+    },
+    {
+      "source": "Kim, Dohee",
+      "target": "Kim, Minseob",
+      "value": 2
+    },
+    {
+      "source": "Kim, Dohee",
+      "target": "Kwon, Jaeun",
+      "value": 1
+    },
+    {
+      "source": "Kim, Dohee",
+      "target": "Park, Yeongyeong",
+      "value": 1
+    },
+    {
+      "source": "Kim, Minseob",
+      "target": "Kwon, Jaeun",
+      "value": 1
+    },
+    {
+      "source": "Kim, Minseob",
+      "target": "Park, Hanbyeol",
+      "value": 1
+    },
+    {
+      "source": "Kim, Minseob",
+      "target": "Park, Mingyu",
+      "value": 1
+    },
+    {
+      "source": "Kim, Minseob",
+      "target": "Park, Yeongyeong",
+      "value": 1
+    },
+    {
+      "source": "Kwon, Jaeun",
+      "target": "Park, Hanbyeol",
+      "value": 1
+    },
+    {
+      "source": "Kwon, Jaeun",
+      "target": "Park, Mingyu",
+      "value": 1
+    },
+    {
+      "source": "Kwon, Jaeun",
+      "target": "Park, Yeongyeong",
+      "value": 1
+    },
+    {
+      "source": "Park, Hanbyeol",
+      "target": "Park, Yeongyeong",
+      "value": 1
+    },
+    {
+      "source": "Park, Mingyu",
+      "target": "Park, Yeongyeong",
+      "value": 1
+    },
+    {
+      "source": "Bae, Hyerim",
+      "target": "Nur, Iman Alif",
+      "value": 1
+    },
+    {
+      "source": "Hanif, Ramadhan Muhammad",
+      "target": "Lee, Sangjae",
+      "value": 1
+    },
+    {
+      "source": "Hanif, Ramadhan Muhammad",
+      "target": "Nur, Iman Alif",
+      "value": 1
+    },
+    {
+      "source": "Lee, Sangjae",
+      "target": "Nur, Iman Alif",
+      "value": 1
+    },
+    {
+      "source": "Lee, Sangjae",
+      "target": "Park, Kikun",
+      "value": 1
+    },
+    {
+      "source": "Nur, Iman Alif",
+      "target": "Park, Kikun",
+      "value": 1
+    },
+    {
+      "source": "Heo, Jaehyeon",
+      "target": "Kim, Minseob",
+      "value": 1
+    },
+    {
+      "source": "Heo, Jaehyeon",
+      "target": "Park, Daesan",
+      "value": 1
+    },
+    {
+      "source": "Kim, Minseob",
+      "target": "Park, Daesan",
+      "value": 1
+    },
+    {
+      "source": "Bae, Hyerim",
+      "target": "Jo, Suhyeon",
+      "value": 1
+    },
+    {
+      "source": "Jo, Sangmin",
+      "target": "Jo, Suhyeon",
+      "value": 1
+    },
+    {
+      "source": "Jo, Sangmin",
+      "target": "Lee, Gawon",
+      "value": 1
+    },
+    {
+      "source": "Jo, Sangmin",
+      "target": "Park, Kikun",
+      "value": 1
+    },
+    {
+      "source": "Jo, Suhyeon",
+      "target": "Lee, Gawon",
+      "value": 1
+    },
+    {
+      "source": "Jo, Suhyeon",
+      "target": "Park, Kikun",
+      "value": 1
+    },
+    {
+      "source": "Bae, Hyerim",
+      "target": "Jeong, Hyokyung",
+      "value": 1
+    },
+    {
+      "source": "Jeong, Hyokyung",
+      "target": "Kwon, Jaeeun",
+      "value": 1
+    },
+    {
+      "source": "Jeong, Hyokyung",
+      "target": "Park, Hanbyeol",
+      "value": 1
+    },
+    {
+      "source": "Jeong, Hyokyung",
+      "target": "Park, Mingyu",
+      "value": 1
+    },
+    {
+      "source": "Kwon, Jaeeun",
+      "target": "Park, Mingyu",
+      "value": 1
+    },
+    {
+      "source": "Bae, Hyerim",
+      "target": "Sim, Seonghyun",
+      "value": 1
+    },
+    {
+      "source": "Kim, Dohee",
+      "target": "Sim, Seonghyun",
+      "value": 1
+    },
+    {
+      "source": "Bae, Hyerim",
+      "target": "Park, SeKil",
+      "value": 1
+    },
+    {
+      "source": "Bae, Hyerim",
+      "target": "Yoon, Bori",
+      "value": 1
+    },
+    {
+      "source": "Park, SeKil",
+      "target": "Sim, Sunghyun",
+      "value": 1
+    },
+    {
+      "source": "Park, SeKil",
+      "target": "Yoon, Bori",
+      "value": 1
+    },
+    {
+      "source": "Sim, Sunghyun",
+      "target": "Yoon, Bori",
       "value": 1
     }
   ]
