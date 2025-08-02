@@ -140,7 +140,7 @@
       // Find the top author (max value) and top 5 authors
       let maxValue = Math.max(...graph.nodes.map(d => d.value));
       // Sort nodes by value descending and get top 5
-      const top5 = [...graph.nodes].sort((a, b) => b.value - a.value).slice(0, 5).map(d => d.id);
+      const top5 = [...graph.nodes].sort((a, b) => b.value - a.value).slice(0, 6).map(d => d.id);
 
       const nodeGroup = zoomable.append('g');
       const node = nodeGroup
@@ -280,8 +280,6 @@
       });
 
 
-
-
       // 이름만 추출 ("Kim, Minhee" → "Minhee", "Minhee Kim" → "Minhee", "김민희" → "민희")
       function extractFirstName(name) {
         if (name.includes(',')) {
@@ -347,8 +345,6 @@
         d.fx = null;
         d.fy = null;
       }
-
-      // ...표 생성 코드 제거됨...
     });
 })();
 </script>
