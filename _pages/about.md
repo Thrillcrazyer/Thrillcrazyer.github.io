@@ -16,15 +16,16 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+<h1 class="intro-title">👋 Hi, I'm 박택현</h1>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
-
+# 📌 Research Interests
+- **Novel Architectures**: Sequence Modeling, State Space Model with Deep Learning
+- **Time Series Analysis**
+- **LLM** : Process Mining with LLM, RLVR
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.12*: &nbsp;🎉🎉 `JustDense: Just using Dense instead of Sequence Mixer for Time Series Analysis` was accepted as a Regular Paper at [IEEE BigData 2025](https://conferences.cis.um.edu.mo/ieeebigdata2025/detailed_program.html).
+- *2025.10*: &nbsp;🎉🎉 A new arXiv paper was published: `Reasoning-Aware GRPO using Process Mining` [Paper](https://huggingface.co/papers/2510.25065)
 
 # 📝 Publications 
 
@@ -43,16 +44,16 @@ My research interest includes neural machine translation and computer vision. I 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
+- *2022.11* 블록체인 기술을 활용한 글쓰기 하이퍼 플랫폼, AI.블록체인 아이디어 경진회회, 경남테크노파크원장상 수상
+- *2022.12* 이미지 생성 AI 학습을 위한 P2P 기반 데이터셋 구축 및 AI 소유권 가상자산화 플랫폼, KMOU AI 아이디어 챌린지 대회, 대상 수상, [Link](https://www.kmou.ac.kr/cle/na/ntt/selectNttInfo.do?nttSn=10323305&mi=2541&currPage=1)
+- *2023.12* RAG 시스템 + 되먹임 AI 시스템 (S2I, AutoCoT... etc)를 활용한 학교 게시판 DB 기반 검색 AI 시스템, KMOU Capstone Design, 레인보우브레인상 수상
+- *2025.11* 해양 LLM 시스템, 2025 K-해양 AI 첼린지, 장려(부산테크노파크 원장) 수상
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- **M.S. in Data Science**, Pusan National University (2025.03 ~ )
+  - Advisor: Prof. Hyerim Bae 
+- **B.S. in Control Engineering**, Korea Maritime & Ocean University (2019.03 ~ 2025.02)
+  -  Under graduate student (2023.09 ~ 2025.02) Advisor: Prof. Kwangil Lee
+  -  I served military service in ROKA. (2020.10 ~ 2022.02)
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2024.01 - 2024.03*, DeepLogicChain, Seoul.

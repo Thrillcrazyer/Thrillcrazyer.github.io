@@ -11,6 +11,9 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 
+# Ruby 3+ does not bundle WEBrick; Jekyll 3.x uses it for `jekyll serve`.
+gem "webrick", "~> 1.8"
+
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
