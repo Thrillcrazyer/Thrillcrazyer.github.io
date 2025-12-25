@@ -17,6 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 <h1 class="intro-title">👋 Hi, I'm 박택현</h1>
+I'm a Master's student at BAELAB, Graduate School of Data Science, Pusan National University, Korea.
 
 # 📌 Research Interests
 - **Novel Architectures**: Sequence Modeling, State Space Model with Deep Learning
@@ -29,30 +30,52 @@ redirect_from:
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="badge">Arxiv</div><img src='images/PM4GRPO.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[**Reasoning-Aware GRPO using Process Mining**](https://huggingface.co/papers/2510.25065)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+<span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Yongjae Lee<sup>*</sup> and Hyerim Bae
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+arXiv
+
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div class="badge">IEEE Bigdata 2025</div><img src='images/JustDense.png' alt="sym" width="100%"></div>
+<div class='paper-box-text' markdown="1">
+
+[**JustDense: Just using Dense instead of Sequence Mixer for Time Series analysis**](https://arxiv.org/abs/2508.09153)
+
+<span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Yongjae Lee<sup>*</sup>, Daesan Park<sup>*</sup>, Dohee Kim and Hyerim Bae
+
+The 13th IEEE International Conference on Big Data (**IEEE BigData 2025**)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div class="badge">S&M</div><img src='images/LARCS.png' alt="sym" width="100%"></div>
+<div class='paper-box-text' markdown="1">
+
+[**LA-RCS: LLM-agent-based Robot Control System**](https://sensors.myu-group.co.jp/sm_pdf/SM4104.pdf3)
+
+<span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>,  Young-Jun Choi, Seung-Hoon Shin, Chang-Eun Lee and Kwangil Lee
+
+Sensors and Materials & IMETI2024, [Project Pages](https://la-rcs.github.io/)
+
+</div>
+</div>
 
 # 🎖 Honors and Awards
-- *2022.11* 블록체인 기술을 활용한 글쓰기 하이퍼 플랫폼, AI.블록체인 아이디어 경진회회, 경남테크노파크원장상 수상
+- *2022.11* 블록체인 기술을 활용한 글쓰기 하이퍼 플랫폼, AI.블록체인 아이디어 경진대회, 경남테크노파크원장상 수상
 - *2022.12* 이미지 생성 AI 학습을 위한 P2P 기반 데이터셋 구축 및 AI 소유권 가상자산화 플랫폼, KMOU AI 아이디어 챌린지 대회, 대상 수상, [Link](https://www.kmou.ac.kr/cle/na/ntt/selectNttInfo.do?nttSn=10323305&mi=2541&currPage=1)
 - *2023.12* RAG 시스템 + 되먹임 AI 시스템 (S2I, AutoCoT... etc)를 활용한 학교 게시판 DB 기반 검색 AI 시스템, KMOU Capstone Design, 레인보우브레인상 수상
 - *2025.11* 해양 LLM 시스템, 2025 K-해양 AI 첼린지, 장려(부산테크노파크 원장) 수상
 # 📖 Educations
 - **M.S. in Data Science**, Pusan National University (2025.03 ~ )
-  - Advisor: Prof. Hyerim Bae 
+  - Advisor: Prof. [Hyerim Bae](https://pnubaelab.github.io/)
 - **B.S. in Control Engineering**, Korea Maritime & Ocean University (2019.03 ~ 2025.02)
-  -  Under graduate student (2023.09 ~ 2025.02) Advisor: Prof. Kwangil Lee
+  -  Under graduate student (2023.09 ~ 2025.02) Advisor: Prof. [Kwangil Lee](https://www.kmou.ac.kr/ca/ad/tepDept/main1/view.do?mi=5707&teaSn=1039)
   -  I served military service in ROKA. (2020.10 ~ 2022.02)
 
 # 💻 Internships

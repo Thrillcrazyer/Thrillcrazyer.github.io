@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Taekhyun Park"
-description              : "I'm a Master's student at BAELAB, Graduate School of Data Science, Pusan National University, Korea."
+description              : "Master's student, Graduate School of Data Science, Pusan National University, Korea"
 repository               : "Thrillcrazyer/Thrillcrazyer.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Taekhyun Park"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/profile.png"
   bio              : "Pusan National University"
   location         : "Busan, Korea"
   employer         :
