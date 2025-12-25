@@ -21,7 +21,7 @@ I'm a Master's student at BAELAB, Graduate School of Data Science, Pusan Nationa
 
 # 📌 Research Interests
 - **Novel Architectures**: Sequence Modeling, State Space Model with Deep Learning
-- **Time Series Analysis**
+- **Time Series Analysis**: Port Logistic, Long Term Forecasting
 - **LLM** : Process Mining with LLM, RLVR
 
 # 🔥 News
