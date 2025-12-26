@@ -23,6 +23,7 @@ redirect_from:
 
 I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate School of Data Science, Pusan National University, Korea.<a href='https://scholar.google.com/citations?user=qQyhAiwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
+
 # 📌 Research Interests
 - **Novel Architectures**: Sequence Modeling, State Space Model with Deep Learning
 - **Time Series Analysis**: Port Logistic, Long Term Forecasting
@@ -90,3 +91,8 @@ Sensors and Materials & IMETI2024, [Project Pages](https://la-rcs.github.io/)
 
 # 💻 Internships
 - *2024.01 - 2024.03*, DeepLogicChain, Seoul.
+
+
+[![HitCount](https://hits.dwyl.com/Thrillcrazyer/Thrillcrazyergithubio.svg?style=flat-square&show=unique)](http://hits.dwyl.com/Thrillcrazyer/Thrillcrazyergithubio)
+
+
