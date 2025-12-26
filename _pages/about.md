@@ -39,6 +39,8 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 
 arXiv
 
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:Tyk-4Ss8FVUC'></span></strong>
+
 </div>
 </div>
 
@@ -51,6 +53,8 @@ arXiv
 
 The 13th IEEE International Conference on Big Data (**IEEE BigData 2025**)
 
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:UeHWp8X0CEIC'></span></strong>
+
 </div>
 </div>
 
@@ -62,6 +66,8 @@ The 13th IEEE International Conference on Big Data (**IEEE BigData 2025**)
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>,  Young-Jun Choi, Seung-Hoon Shin, Chang-Eun Lee and Kwangil Lee
 
 Sensors and Materials & IMETI2024, [Project Pages](https://la-rcs.github.io/)
+
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:u5HHmVD_uO8C'></span></strong>
 
 </div>
 </div>
