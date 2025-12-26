@@ -16,7 +16,10 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "results/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-<h1 class="intro-title">👋 Hi, I'm Taekhyun Park(박택현)</h1>
+
+<h1 class="intro-title">
+  <span class="js-texttype" data-texts='["👋 Hi, I’m Taekhyun Park(박택현)"]' data-typing-speed="75" data-pause-duration="1500" data-show-cursor="true" data-cursor-character="|"></span>
+</h1>
 
 I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate School of Data Science, Pusan National University, Korea.<a href='https://scholar.google.com/citations?user=qQyhAiwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
