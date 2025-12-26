@@ -42,7 +42,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Yongjae Lee<sup>*</sup> and Hyerim Bae
 
-arXiv
+arXiv [code](https://github.com/Thrillcrazyer/THIP)
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:Tyk-4Ss8FVUC'></span></strong>
 
@@ -56,7 +56,7 @@ arXiv
 
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Yongjae Lee<sup>*</sup>, Daesan Park<sup>*</sup>, Dohee Kim and Hyerim Bae
 
-The 13th IEEE International Conference on Big Data (**IEEE BigData 2025**)
+The 13th IEEE International Conference on Big Data (**IEEE BigData 2025**) [code](https://github.com/Thrillcrazyer/JustDense)
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:UeHWp8X0CEIC'></span></strong>
 
@@ -71,6 +71,7 @@ The 13th IEEE International Conference on Big Data (**IEEE BigData 2025**)
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>,  Young-Jun Choi, Seung-Hoon Shin, Chang-Eun Lee and Kwangil Lee
 
 Sensors and Materials & IMETI2024, [Project Pages](https://la-rcs.github.io/)
+
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:u5HHmVD_uO8C'></span></strong>
 
@@ -93,6 +94,6 @@ Sensors and Materials & IMETI2024, [Project Pages](https://la-rcs.github.io/)
 - *2024.01 - 2024.03*, DeepLogicChain, Seoul.
 
 
-[![HitCount](https://hits.dwyl.com/Thrillcrazyer/Thrillcrazyergithubio.svg?style=flat-square&show=unique)](http://hits.dwyl.com/Thrillcrazyer/Thrillcrazyergithubio)
+ [![HitCount](https://hits.dwyl.com/Thrillcrazyer/Thrillcrazyergithubio.svg?style=flat&show=unique)](http://hits.dwyl.com/Thrillcrazyer/Thrillcrazyergithubio)
 
 
