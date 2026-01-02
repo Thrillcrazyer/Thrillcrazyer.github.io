@@ -56,7 +56,7 @@ arXiv [code](https://github.com/Thrillcrazyer/THIP)
 
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Yongjae Lee<sup>*</sup>, Daesan Park<sup>*</sup>, Dohee Kim and Hyerim Bae
 
-The 13th IEEE International Conference on Big Data (**IEEE BigData 2025**) [code](https://github.com/Thrillcrazyer/JustDense)
+The 13th IEEE International Conference on Big Data (**IEEE BigData 2025**)(acceptance rate: 18.7%) [code](https://github.com/Thrillcrazyer/JustDense)
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:UeHWp8X0CEIC'></span></strong>
 
@@ -66,7 +66,7 @@ The 13th IEEE International Conference on Big Data (**IEEE BigData 2025**) [code
 <div class='paper-box'><div class='paper-box-image'><div class="badge">S&M</div><img src='images/LARCS.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-[**LA-RCS: LLM-agent-based Robot Control System**](https://sensors.myu-group.co.jp/sm_pdf/SM4104.pdf3)
+[**LA-RCS: LLM-agent-based Robot Control System**](https://sensors.myu-group.co.jp/sm_pdf/SM4104.pdf)
 
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>,  Young-Jun Choi, Seung-Hoon Shin, Chang-Eun Lee and Kwangil Lee
 
