@@ -27,7 +27,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 # 📌 Research Interests
 - **Novel Architectures**: Sequence Modeling, State Space Model with Deep Learning
 - **Time Series Analysis**: Port Logistic, Long Term Forecasting
-- **LLM** : Process Mining with LLM, RLVR
+- **LLM** : Process Mining with LLM, RLVR , Linear Attention
 
 # 🔥 News
 - *2025.12*: &nbsp;🎉🎉 `JustDense: Just using Dense instead of Sequence Mixer for Time Series Analysis` was accepted as a Regular Paper at [IEEE BigData 2025](https://conferences.cis.um.edu.mo/ieeebigdata2025/detailed_program.html).
