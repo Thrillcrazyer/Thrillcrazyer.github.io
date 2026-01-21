@@ -41,15 +41,14 @@
 @import "print";
 
 @font-face {
-    font-family: 'HancomHunminjeongeum';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2406-1@1.0/HancomHoonminjeongeumH.woff') format('woff');
+    font-family: 'RoundedFixedsys';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
     font-display: swap;
 }
 
 .intro-title {
-    font-family: 'HancomHunminjeongeum', $header-font-family;
+    font-family: 'RoundedFixedsys', $header-font-family;
 }
 
 .paper-box {
