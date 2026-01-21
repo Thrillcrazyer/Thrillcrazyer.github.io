@@ -18,7 +18,8 @@
     @include clearfix;
     padding: .5em;
     background-color: $background-color;
-    font-family: $sans-serif-narrow;
+    font-family: $rounded-fixedsys;
+    font-size: $type-size-4;
 
     @include breakpoint($x-large) {
       max-width: $x-large;

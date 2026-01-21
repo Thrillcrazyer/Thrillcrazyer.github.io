@@ -83,6 +83,7 @@ Sensors and Materials & IMETI2024, [Project Pages](https://la-rcs.github.io/)
 - *2022.12* 이미지 생성 AI 학습을 위한 P2P 기반 데이터셋 구축 및 AI 소유권 가상자산화 플랫폼, KMOU AI 아이디어 챌린지 대회, 대상 수상, [Link](https://www.kmou.ac.kr/cle/na/ntt/selectNttInfo.do?nttSn=10323305&mi=2541&currPage=1)
 - *2023.12* RAG 시스템 + 되먹임 AI 시스템 (S2I, AutoCoT... etc)를 활용한 학교 게시판 DB 기반 검색 AI 시스템, KMOU Capstone Design, 레인보우브레인상 수상
 - *2025.11* 해양 LLM 시스템, 2025 K-해양 AI 첼린지, 장려(부산테크노파크 원장) 수상
+
 # 📖 Educations
 - **M.S. in Data Science**, Pusan National University (2025.03 ~ )
   - Advisor: Prof. [Hyerim Bae](https://pnubaelab.github.io/)
