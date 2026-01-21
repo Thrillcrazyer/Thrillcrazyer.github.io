@@ -40,7 +40,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 
 [**Reasoning-Aware GRPO using Process Mining**](https://huggingface.co/papers/2510.25065)
 
-<span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Yongjae Lee<sup>*</sup> and Hyerim Bae
+Yongjae Lee<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup> and Hyerim Bae
 
 arXiv [code](https://github.com/Thrillcrazyer/THIP)
 
@@ -68,7 +68,7 @@ The 13th IEEE International Conference on Big Data (**IEEE BigData 2025**)(accep
 
 [**LA-RCS: LLM-agent-based Robot Control System**](https://sensors.myu-group.co.jp/sm_pdf/SM4104.pdf)
 
-<span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>,  Young-Jun Choi, Seung-Hoon Shin, Chang-Eun Lee and Kwangil Lee
+<span style="color:#645495">**Taekhyun Park**</span>,  Young-Jun Choi, Seung-Hoon Shin, Chang-Eun Lee and Kwangil Lee
 
 Sensors and Materials & IMETI2024, [Project Pages](https://la-rcs.github.io/)
 
