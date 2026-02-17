@@ -25,7 +25,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 
 
 # 📌 Research Interests
-- **Novel Architectures**: Sequence Modeling, State Space Model with Deep Learning
+- **Novel Architectures**: Sequence Modeling, Deep Supervision ,State Space Model with Deep Learning
 - **Time Series Analysis**: Port Logistic, Long Term Forecasting
 - **LLM** : Process Mining with LLM, RLVR , Linear Attention
 
@@ -68,7 +68,7 @@ The 13th IEEE International Conference on Big Data (**IEEE BigData 2025**)(accep
 
 [**LA-RCS: LLM-agent-based Robot Control System**](https://sensors.myu-group.co.jp/sm_pdf/SM4104.pdf)
 
-<span style="color:#645495">**Taekhyun Park**</span>,  Young-Jun Choi, Seung-Hoon Shin, Chang-Eun Lee and Kwangil Lee
+<span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>,  Young-Jun Choi, Seung-Hoon Shin, Chang-Eun Lee and Kwangil Lee
 
 Sensors and Materials & IMETI2024, [Project Pages](https://la-rcs.github.io/)
 
