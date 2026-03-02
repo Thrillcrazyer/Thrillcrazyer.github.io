@@ -4,7 +4,8 @@ set -euo pipefail
 # Fix for Ruby 3 + pathutil 0.16.2 (used by Jekyll 3.x / github-pages).
 export RUBYOPT="${RUBYOPT:-} -r./patches/pathutil_kwfix"
 
-bundle install
+# Use bundler version from Gemfile.lock to avoid version conflicts
+bundle _2.2.19_ install
 
 port_in_use() {
 	local port="$1"
@@ -35,4 +36,4 @@ if [[ -z "$LIVERELOAD_PORT" ]]; then
 	LIVERELOAD_PORT="$(pick_free_port 35729 35749)"
 fi
 
-bundle exec jekyll serve --livereload --port "$JEKYLL_PORT" --livereload-port "$LIVERELOAD_PORT"
+bundle _2.2.19_ exec jekyll serve --livereload --port "$JEKYLL_PORT" --livereload-port "$LIVERELOAD_PORT"

@@ -35,6 +35,32 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div class="badge">Arxiv</div><img src='images/CDTLLM.png' alt="sym" width="100%"></div>
+<div class='paper-box-text' markdown="1">
+
+[**Generative AI and Machine Learning Collaboration for Container Dwell Time Prediction via Data Standardization**](https://arxiv.org/abs/2602.20540)
+
+Minseop Kim<sup>*</sup>, Takhyeong Kim,  <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Hanbyeol Park and Hyerim Bae
+
+
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:eQOLeE2rZwMC'></span></strong>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div class="badge">Arxiv</div><img src='images/TimeLLM.png' alt="sym" width="100%"></div>
+<div class='paper-box-text' markdown="1">
+
+[**Application of Large Language Models for Container Throughput Forecasting: Incorporating Contextual Information in Port Logistics**](https://arxiv.org/abs/2602.20489)
+
+Minseop Kim<sup>*</sup>, Jaeeun Kwon, Hanbyeol Park,  Kikun Park, <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup> and Hyerim Bae
+
+
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:YsMSGLbcyi4C'></span></strong>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div class="badge">Arxiv</div><img src='images/PM4GRPO.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
