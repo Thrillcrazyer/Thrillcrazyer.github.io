@@ -40,12 +40,24 @@ interface for maritime safety management.
     </div>
 </div>
 
-# System UI
+
+# Demo Videos
 
 <div class="columns is-centered has-text-centered">
     <div class="column">
-        <img src="/images/UI_explain.png" alt="UI Explanation" style="width: 100%; max-width: 1200px;">
-        <p><em>Figure 3: Web-based dashboard UI for risk visualization and scenario generation.</em></p>
+        <div style="position: relative; width: 100%; max-width: 1200px; margin: 0 auto; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe src="https://www.youtube.com/embed/KPFRiOgYq84" title="VTS System Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        </div>
+        <p><em>Video 1: VTS (Vessel Traffic Service) system demonstration.</em></p>
+    </div>
+</div>
+
+<div class="columns is-centered has-text-centered">
+    <div class="column">
+        <div style="position: relative; width: 100%; max-width: 1200px; margin: 0 auto; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe src="https://www.youtube.com/embed/0GwkabTVjJg" title="Route Visualization Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        </div>
+        <p><em>Video 2: Route visualization demonstration.</em></p>
     </div>
 </div>
 
@@ -56,10 +68,10 @@ interface for maritime safety management.
 ## Citation
 
 ```
-@article{your2026paper,
-  title={Your Paper Title},
-  author={Author1 and Author2},
-  journal={Conference/Journal Name},
+@misc{park2026design,
+  title={Design and Implementation of an LLM-Based Maritime Risk Scenario Generation System for Vessel Traffic Services},
+  author={Park, Taekhyun and Jo, Sangmin and Bae, Hyerim and Kim, Dohee},
+  journal={IEEE CASE Submission},
   year={2026}
 }
 ```
