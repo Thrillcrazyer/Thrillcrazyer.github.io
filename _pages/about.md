@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 <h1 class="intro-title">
-  <span class="js-texttype" data-texts='["The Winter the Machines Took Everything"]' data-effect="scramble" data-trigger="hover" data-duration="1200" data-speed="45" data-show-cursor="false"></span>
+  <span class="js-texttype" data-texts='["The Winter the Machines Took Everything..."]' data-effect="scramble" data-trigger="hover" data-duration="1200" data-speed="45" data-show-cursor="false"></span>
 </h1>
 
 I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate School of Data Science, Pusan National University, Korea.<a href='https://scholar.google.com/citations?user=qQyhAiwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
