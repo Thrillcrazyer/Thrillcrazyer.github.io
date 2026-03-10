@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-$doc-font-size              : 20;
+$doc-font-size              : 12px; // 1em
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
@@ -14,14 +14,14 @@ $indent-var                 : 0.5em;
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : 'RoundedFixedsys',"Trebuchet MS", Helvetica, sans-serif;
+$sans-serif                 : 'Gugi', Helvetica, sans-serif;
 // $sans-serif                 : Georgia, serif, sans-serif;
 
 // $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* custom typefaces */
-$rounded-fixedsys           : 'RoundedFixedsys', $sans-serif;
+$rounded-fixedsys           : $sans-serif;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -34,19 +34,19 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $rounded-fixedsys;
-$header-font-family         : $rounded-fixedsys;
+$global-font-family         : $sans-serif ;
+$header-font-family         : $sans-serif ;
 $caption-font-family        : $serif;
 
 /* type scale */
-$type-size-1                : 2.441em;  // ~39.056px
-$type-size-2                : 1.953em;  // ~31.248px
-$type-size-3                : 1.4em;  // ~25.008px
-$type-size-4                : 1.2em;   // ~24px
-$type-size-5                : 1.1em;    // ~22px
-$type-size-6                : 1em;   // ~20px
-$type-size-7                : 0.8em; // ~16px
-$type-size-8                : 0.7em;  // ~14px
+$type-size-1                : 2.441em;  // ~29.292px
+$type-size-2                : 1.953em;  // ~23.436px
+$type-size-3                : 1.4em;  // ~16.8px
+$type-size-4                : 1.2em;   // ~14.4px
+$type-size-5                : 1.1em;    // ~13.2px
+$type-size-6                : 1em;   // ~12px
+$type-size-7                : 0.8em; // ~9.6px
+$type-size-8                : 0.7em;  // ~8.4px
 
 
 /*
