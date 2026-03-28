@@ -25,8 +25,8 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 
 
 # 📌 Research Interests
-- **Novel Architectures**: Sequence Modeling, Deep Supervision ,State Space Model with Deep Learning
-- **Time Series Analysis**: Port Logistic, Long Term Forecasting
+- **Novel Architectures**: JEPA, Deep Supervision, State Space Model with Deep Learning
+- **Sequence Modeling**:Time Series Analysis, Long Term Forecasting with Domain(Port Logistic)
 - **LLM** : Process Mining with LLM, RLVR , Linear Attention
 
 # 🔥 News
