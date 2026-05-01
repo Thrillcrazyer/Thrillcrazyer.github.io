@@ -34,13 +34,47 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 - *2025.10*: &nbsp;🎉🎉 A new arXiv paper was published: `Reasoning-Aware GRPO using Process Mining` [Paper](https://huggingface.co/papers/2510.25065)
 
 # 📝 Publications 
+<sup>*</sup> indicates first author.
+
+<div class='paper-box'><div class='paper-box-image'><div class="badge">ICIC</div><img src='/images/LURKER.png' alt="sym" width="100%"></div>
+<div class='paper-box-text' markdown="1">
+
+[**LURKER: LANGUAGE MODELS FOR UNVEILING MARITIME RISKS VIA KNOWLEDGE-DRIVEN EVENT FORECASTING AND REASONING**](http://www.icicel.org/ell/contents/2026/5/el-20-05-08.pdf)
+
+<span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Sangmin Jo, Dohee Kim and Hyerim Bae
+
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div class="badge">ICIC</div><img src='/images/SangminJo.png' alt="sym" width="100%"></div>
+<div class='paper-box-text' markdown="1">
+
+[**IDENTIFYING SEVERITY OF MARITIME ACCIDENTS BASED ON WEIGHTED KERNEL DENSITY ESTIMATION**](https://thrillcrazyer.github.io/MaritimeRiskScenarioGen)
+
+Seongmoon Hong<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span>, Dohee Kim, Sangmin Jo and Hyerim Bae
+
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div class="badge">CASE Submission</div><img src='/images/framework.png' alt="sym" width="100%"></div>
+<div class='paper-box-text' markdown="1">
+
+[**Design and Implementation of an LLM-Based Maritime Risk Scenario Generation System for Vessel Traffic Services**](https://thrillcrazyer.github.io/MaritimeRiskScenarioGen)
+
+<span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Sangmin Jo, Dohee Kim and Hyerim Bae
+
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div class="badge">Arxiv</div><img src='images/CDTLLM.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
 [**Generative AI and Machine Learning Collaboration for Container Dwell Time Prediction via Data Standardization**](https://arxiv.org/abs/2602.20540)
 
-Minseop Kim<sup>*</sup>, Takhyeong Kim,  <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Hanbyeol Park and Hyerim Bae
+Minseop Kim<sup>*</sup>, Takhyeong Kim,  <span style="color:#645495">**Taekhyun Park**</span>, Hanbyeol Park and Hyerim Bae
 
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:eQOLeE2rZwMC'></span></strong>
@@ -53,15 +87,15 @@ Minseop Kim<sup>*</sup>, Takhyeong Kim,  <span style="color:#645495">**Taekhyun 
 
 [**Application of Large Language Models for Container Throughput Forecasting: Incorporating Contextual Information in Port Logistics**](https://arxiv.org/abs/2602.20489)
 
-Minseop Kim<sup>*</sup>, Jaeeun Kwon, Hanbyeol Park,  Kikun Park, <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup> and Hyerim Bae
+Minseop Kim<sup>*</sup>, Jaeeun Kwon, Hanbyeol Park,  Kikun Park, <span style="color:#645495">**Taekhyun Park**</span> and Hyerim Bae
 
 
-<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:W7OEmFMy1HYC'></span></strong>
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:YsMSGLbcyi4C'></span></strong>
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">Arxiv</div><img src='images/PM4GRPO.png' alt="sym" width="100%"></div>
+<div class='paper-box'><div class='paper-box-image'><div class="badge">ICML Rejected</div><img src='images/PM4GRPO.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
 [**Reasoning-Aware GRPO using Process Mining**](https://huggingface.co/papers/2510.25065)
@@ -70,7 +104,7 @@ Yongjae Lee<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span><su
 
 arXiv [code](https://github.com/Thrillcrazyer/THIP)
 
-<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:Tyk-4Ss8FVUC'></span></strong>
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:W7OEmFMy1HYC'></span></strong>
 
 </div>
 </div>
