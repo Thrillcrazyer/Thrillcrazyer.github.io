@@ -50,7 +50,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 <div class='paper-box'><div class='paper-box-image'><div class="badge">ICIC</div><img src='/images/SangminJo.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-[**IDENTIFYING SEVERITY OF MARITIME ACCIDENTS BASED ON WEIGHTED KERNEL DENSITY ESTIMATION**](https://thrillcrazyer.github.io/MaritimeRiskScenarioGen)
+[**IDENTIFYING SEVERITY OF MARITIME ACCIDENTS BASED ON WEIGHTED KERNEL DENSITY ESTIMATION**](http://www.icicel.org/ell/contents/2026/4/el-20-04-05.pdf)
 
 Seongmoon Hong<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span>, Dohee Kim, Sangmin Jo and Hyerim Bae
 
