@@ -43,8 +43,6 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 
 Seongmoon Hong<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span>, Dohee Kim, Sangmin Jo and Hyerim Bae
 
-<span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Sangmin Jo, Dohee Kim and Hyerim Bae
-
 
 </div>
 </div>
