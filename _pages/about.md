@@ -41,6 +41,8 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 
 [**LURKER: LANGUAGE MODELS FOR UNVEILING MARITIME RISKS VIA KNOWLEDGE-DRIVEN EVENT FORECASTING AND REASONING**](http://www.icicel.org/ell/contents/2026/5/el-20-05-08.pdf)
 
+Seongmoon Hong<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span>, Dohee Kim, Sangmin Jo and Hyerim Bae
+
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Sangmin Jo, Dohee Kim and Hyerim Bae
 
 
@@ -52,7 +54,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 
 [**IDENTIFYING SEVERITY OF MARITIME ACCIDENTS BASED ON WEIGHTED KERNEL DENSITY ESTIMATION**](http://www.icicel.org/ell/contents/2026/4/el-20-04-05.pdf)
 
-Seongmoon Hong<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span>, Dohee Kim, Sangmin Jo and Hyerim Bae
+Sangmin Jo<sup>*</sup>, Dohee Kim, Seongmoon Hong, <span style="color:#645495">**Taekhyun Park**</span>, and Hyerim Bae
 
 
 </div>
