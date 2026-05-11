@@ -113,6 +113,18 @@
                 </a>
               </span>
               {% endif %}
+              <!-- Hugging Face Link. -->
+              {% if page.huggingface %}
+              <span class="link-block">
+                <a href="{{ page.huggingface }}"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <img src="/static/image/hf-logo-monochrome.svg" alt="Hugging Face" style="width: 1.5em; height: 1.5em; display: block;">
+                  </span>
+                  <span>Hugging Face</span>
+                </a>
+              </span>
+              {% endif %}
             </div>
           </div>
         </div>
