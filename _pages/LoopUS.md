@@ -7,12 +7,11 @@ authors: "Taekhyun Park<sup>1</sup>, Yongjae Lee<sup>2</sup>, Dohee Kim<sup>3</s
 affiliations: "<sup>1</sup>Department of Data Science, Pusan National University, Busan, South Korea, <br><sup>2</sup>Department of Industrial Engineering, Pusan National University, Busan, South Korea, <br><sup>3</sup> Department of of AI Convergence Engineering, 
         Changwon National University, Changwon, South Korea<br>
         <sup>†</sup>Corresponding author"
-paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
+paper: https://arxiv.org/abs/2605.11011
 video: https://www.youtube.com/watch?v=PW-x6m8_mP8
 code: https://github.com/Thrillcrazyer/LoopUS
 huggingface: https://huggingface.co/Thrillcrazyer/Qwen3_1.7B_LoopUS
 ---
-
 
 <!-- Abstract -->
 <div class="columns is-centered has-text-centered">

@@ -30,11 +30,23 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 - **LLM** : Process Mining with LLM, RLVR , Linear Attention
 
 # 🔥 News
+- *2026.05*: &nbsp;🎉🎉 A new arXiv paper was published: `LoopUS: Recasting Pretrained LLMs into Looped Latent Refinement Models` [Paper](https://arxiv.org/abs/2605.11011)
 - *2025.12*: &nbsp;🎉🎉 `JustDense: Just using Dense instead of Sequence Mixer for Time Series Analysis` was accepted as a Regular Paper at [IEEE BigData 2025](https://conferences.cis.um.edu.mo/ieeebigdata2025/detailed_program.html).
 - *2025.10*: &nbsp;🎉🎉 A new arXiv paper was published: `Reasoning-Aware GRPO using Process Mining` [Paper](https://huggingface.co/papers/2510.25065)
 
 # 📝 Publications 
 <sup>*</sup> indicates first author.
+
+<div class='paper-box'><div class='paper-box-image'><div class="badge">ICIC</div><img src='/images/LoopUS/RepresentationLearning.png' alt="sym" width="100%"></div>
+<div class='paper-box-text' markdown="1">
+
+[**LoopUS: Recasting Pretrained LLMs into Looped Latent Refinement Models**](https://arxiv.org/abs/2605.11011)
+
+<span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Yongjae Lee, Dohee Kim and Hyerim Bae
+
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div class="badge">ICIC</div><img src='/images/LURKER.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
