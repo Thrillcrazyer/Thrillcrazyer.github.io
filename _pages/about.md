@@ -37,7 +37,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 # 📝 Publications 
 <sup>*</sup> indicates first author.
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">ICIC</div><img src='/images/LoopUS/RepresentationLearning.png' alt="sym" width="100%"></div>
+<div class='paper-box'><div class='paper-box-image'><div class="badge">Arxiv</div><img src='/images/LoopUS/RepresentationLearning.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
 [**LoopUS: Recasting Pretrained LLMs into Looped Latent Refinement Models**](https://arxiv.org/abs/2605.11011)
