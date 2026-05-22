@@ -27,7 +27,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 # 📌 Research Interests
 - **Novel Architectures**: JEPA, Deep Supervision, State Space Model with Deep Learning
 - **Sequence Modeling**: Time Series, Language, Video, Log
-- **LLM** : Process Mining with LLM, RLVR , Linear Attention
+- **LLM** : Process Mining with LLM, RLVR , Linear Attention , Looped LLM
 
 # 🔥 News
 - *2026.05*: &nbsp;🎉🎉 A new arXiv paper was published: `LoopUS: Recasting Pretrained LLMs into Looped Latent Refinement Models` [Paper](https://arxiv.org/abs/2605.11011)
