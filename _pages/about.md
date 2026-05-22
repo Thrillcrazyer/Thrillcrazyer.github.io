@@ -26,7 +26,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 
 # 📌 Research Interests
 - **Novel Architectures**: JEPA, Deep Supervision, State Space Model with Deep Learning
-- **Sequence Modeling**:Time Series Analysis, Long Term Forecasting with Domain(Port Logistic)
+- **Sequence Modeling**: Time Series, Language, Video, Log
 - **LLM** : Process Mining with LLM, RLVR , Linear Attention
 
 # 🔥 News
@@ -44,7 +44,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Yongjae Lee, Dohee Kim and Hyerim Bae
 
-
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:LkGwnXOMwfcC'></span></strong>
 </div>
 </div>
 
@@ -55,6 +55,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 
 Seongmoon Hong<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span>, Dohee Kim, Sangmin Jo and Hyerim Bae
 
+ICIC Express Letters & ICICIC 2025
 
 </div>
 </div>
@@ -66,6 +67,7 @@ Seongmoon Hong<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span>
 
 Sangmin Jo<sup>*</sup>, Dohee Kim, Seongmoon Hong, <span style="color:#645495">**Taekhyun Park**</span>, and Hyerim Bae
 
+ICIC Express Letters & ICICIC 2025
 
 </div>
 </div>
