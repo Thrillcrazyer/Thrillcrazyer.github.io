@@ -13,6 +13,13 @@ body {
     margin-bottom: 5px;
 }
 
+.link-block .button .icon .project-button__icon-image {
+    display: block;
+    width: 1em;
+    height: 1em;
+    object-fit: contain;
+}
+
 .dnerf {
   font-variant: small-caps;
 }
