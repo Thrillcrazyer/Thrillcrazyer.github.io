@@ -17,17 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<h1 class="intro-title">
-  <span class="js-texttype" data-texts='["The Winter the Machines Took Everything..."]' data-effect="scramble" data-trigger="hover" data-duration="1200" data-speed="45" data-show-cursor="false"></span>
-</h1>
+# Taekhyun Park (박택현)
 
 I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate School of Data Science, Pusan National University, Korea.<a href='https://scholar.google.com/citations?user=qQyhAiwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
-
 # 📌 Research Interests
-- **Novel Architectures**: JEPA, Deep Supervision, State Space Model with Deep Learning
-- **Sequence Modeling**: Time Series, Language, Video, Log
-- **LLM** : Process Mining with LLM, RLVR , Linear Attention , Looped LLM
+- **Novel Architectures**: JEPA, Deep Supervision, State Space Model with Deep Learning , Looped LLM
+- **Sequence Modeling**: Time Series, Language, Video, Event Log
+- **LLM** : Process Mining with LLM, RLVR , Agent system
 
 # 🔥 News
 - *2026.05*: &nbsp;🎉🎉 A new arXiv paper was published: `LoopUS: Recasting Pretrained LLMs into Looped Latent Refinement Models` [Paper](https://arxiv.org/abs/2605.11011)
@@ -43,6 +40,8 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 [**LoopUS: Recasting Pretrained LLMs into Looped Latent Refinement Models**](https://arxiv.org/abs/2605.11011)
 
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Yongjae Lee, Dohee Kim and Hyerim Bae
+
+arXiv, [Project Pages](https://thrillcrazyer.github.io/LoopUS)
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:LkGwnXOMwfcC'></span></strong>
 </div>
@@ -79,6 +78,7 @@ ICIC Express Letters & ICICIC 2025
 
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Sangmin Jo, Dohee Kim and Hyerim Bae
 
+Paper Submission, [Project Pages](https://thrillcrazyer.github.io/MaritimeRiskScenarioGen)
 
 </div>
 </div>
@@ -90,6 +90,7 @@ ICIC Express Letters & ICICIC 2025
 
 Minseop Kim<sup>*</sup>, Takhyeong Kim,  <span style="color:#645495">**Taekhyun Park**</span>, Hanbyeol Park and Hyerim Bae
 
+Paper Submission
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:eQOLeE2rZwMC'></span></strong>
 
@@ -103,6 +104,7 @@ Minseop Kim<sup>*</sup>, Takhyeong Kim,  <span style="color:#645495">**Taekhyun 
 
 Minseop Kim<sup>*</sup>, Jaeeun Kwon, Hanbyeol Park,  Kikun Park, <span style="color:#645495">**Taekhyun Park**</span> and Hyerim Bae
 
+Paper Submission
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:YsMSGLbcyi4C'></span></strong>
 
@@ -112,7 +114,7 @@ Minseop Kim<sup>*</sup>, Jaeeun Kwon, Hanbyeol Park,  Kikun Park, <span style="c
 <div class='paper-box'><div class='paper-box-image'><div class="badge">ICML Rejected</div><img src='images/PM4GRPO.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-[**Reasoning-Aware GRPO using Process Mining**](https://huggingface.co/papers/2510.25065)
+[**Reasoning-Aware Proxy Reward Model using Process Mining**](https://arxiv.org/pdf/2510.25065)
 
 Yongjae Lee<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup> and Hyerim Bae
 
