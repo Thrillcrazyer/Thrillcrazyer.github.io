@@ -27,6 +27,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 - **LLM** : Process Mining with LLM, RLVR , Agent system
 
 # 🔥 News
+- *2026.05*: &nbsp;🎉🎉 `Design and Implementation of an LLM-Based Maritime Risk Scenario Generation System for Vessel Traffic Services` was accepted at [IEEE Case 2026](https://2026.ieeecase.org/).
 - *2026.05*: &nbsp;🎉🎉 A new arXiv paper was published: `LoopUS: Recasting Pretrained LLMs into Looped Latent Refinement Models` [Paper](https://arxiv.org/abs/2605.11011)
 - *2025.12*: &nbsp;🎉🎉 `JustDense: Just using Dense instead of Sequence Mixer for Time Series Analysis` was accepted as a Regular Paper at [IEEE BigData 2025](https://conferences.cis.um.edu.mo/ieeebigdata2025/detailed_program.html).
 - *2025.10*: &nbsp;🎉🎉 A new arXiv paper was published: `Reasoning-Aware GRPO using Process Mining` [Paper](https://huggingface.co/papers/2510.25065)
@@ -41,7 +42,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Yongjae Lee, Dohee Kim and Hyerim Bae
 
-arXiv, [Project Pages](https://thrillcrazyer.github.io/LoopUS)
+Paper Submission, arXiv, [Project Pages](https://thrillcrazyer.github.io/LoopUS)
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:LkGwnXOMwfcC'></span></strong>
 </div>
@@ -71,14 +72,14 @@ ICIC Express Letters & ICICIC 2025
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">CASE Submission</div><img src='/images/framework.png' alt="sym" width="100%"></div>
+<div class='paper-box'><div class='paper-box-image'><div class="badge">CASE</div><img src='/images/framework.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
 [**Design and Implementation of an LLM-Based Maritime Risk Scenario Generation System for Vessel Traffic Services**](https://thrillcrazyer.github.io/MaritimeRiskScenarioGen)
 
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Sangmin Jo, Dohee Kim and Hyerim Bae
 
-Paper Submission, [Project Pages](https://thrillcrazyer.github.io/MaritimeRiskScenarioGen)
+IEEE Case 2026, [Project Pages](https://thrillcrazyer.github.io/MaritimeRiskScenarioGen)
 
 </div>
 </div>
@@ -111,14 +112,14 @@ Paper Submission
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">ICML Rejected</div><img src='images/PM4GRPO.png' alt="sym" width="100%"></div>
+<div class='paper-box'><div class='paper-box-image'><div class="badge">Arxiv</div><img src='images/PM4GRPO.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-[**Reasoning-Aware Proxy Reward Model using Process Mining**](https://arxiv.org/pdf/2510.25065)
+[**Rewarding Structural Conformance of Reasoning using Process Mining**](https://arxiv.org/pdf/2510.25065)
 
 Yongjae Lee<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup> and Hyerim Bae
 
-arXiv [code](https://github.com/Thrillcrazyer/THIP)
+Paper Submission, arXiv, [code](https://github.com/Thrillcrazyer/THIP)
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:W7OEmFMy1HYC'></span></strong>
 
@@ -128,7 +129,7 @@ arXiv [code](https://github.com/Thrillcrazyer/THIP)
 <div class='paper-box'><div class='paper-box-image'><div class="badge">IEEE Bigdata 2025</div><img src='images/JustDense.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-[**JustDense: Just using Dense instead of Sequence Mixer for Time Series analysis**](https://arxiv.org/abs/2508.09153)
+[**JustDense: Just using Dense instead of Sequence Mixer for Time Series analysis**](https://ieeexplore.ieee.org/abstract/document/11401854)
 
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Yongjae Lee<sup>*</sup>, Daesan Park<sup>*</sup>, Dohee Kim and Hyerim Bae
 
