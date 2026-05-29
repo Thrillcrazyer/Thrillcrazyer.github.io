@@ -21,6 +21,8 @@ redirect_from:
 
 I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate School of Data Science, Pusan National University, Korea.<a href='https://scholar.google.com/citations?user=qQyhAiwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
+<small>You can find my CV <a href="/assets/pdf/resume.pdf" target="_blank" rel="noopener">here</a>.</small>
+
 # 📌 Research Interests
 - **Novel Architectures**: JEPA, Deep Supervision, State Space Model with Deep Learning , Looped LLM
 - **Sequence Modeling**: Time Series, Language, Video, Event Log
