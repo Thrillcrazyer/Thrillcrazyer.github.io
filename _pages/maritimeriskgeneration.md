@@ -71,7 +71,7 @@ interface for maritime safety management.
 @misc{park2026design,
   title={Design and Implementation of an LLM-Based Maritime Risk Scenario Generation System for Vessel Traffic Services},
   author={Park, Taekhyun and Jo, Sangmin and Bae, Hyerim and Kim, Dohee},
-  journal={IEEE CASE Submission},
+  journal={IEEE CASE 2026},
   year={2026}
 }
 ```

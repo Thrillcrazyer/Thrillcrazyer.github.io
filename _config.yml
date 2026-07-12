@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Taekhyun Park"
-  avatar           : "images/profile.png"
+  avatar           : "images/profile.jpg"
   bio              : "Pusan National University"
   location         : "Busan, Korea"
   employer         :
@@ -138,7 +138,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: KR # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
