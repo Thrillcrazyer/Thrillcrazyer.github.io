@@ -37,6 +37,30 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 # 📝 Publications 
 <sup>*</sup> indicates first author.
 
+<div class='paper-box'><div class='paper-box-image'><div class="badge">ICIC</div><img src='/images/Trie.png' alt="sym" width="100%"></div>
+<div class='paper-box-text' markdown="1">
+
+[**Trie-Constrained Token Prediction with Hierarchy-Aware Semantic Alignment for HS Code Prediction**](https://arxiv.org/abs/2608.04464)
+
+Minseop Kim<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span>, Kikun Park, Hyerim Bae
+
+Paper Submission, arXiv 
+
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:3fE2CSJIrl8C'></span></strong>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div class="badge">ICIC</div><img src='/images/SamsungHeavyIndustry.png' alt="sym" width="100%"></div>
+<div class='paper-box-text' markdown="1">
+
+[**Variable-Horizon Workforce Demand Forecasting with an Aggregate Demand Constraint for Construction Workforce Planning**](https://arxiv.org/abs/2608.05551)
+
+Hanbyeol park<sup>*</sup> , Jaehyeon Heo<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span>, Minseong Kim and Hyerim Bae
+
+Paper Submission, arXiv
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div class="badge">Arxiv</div><img src='/images/LoopUS/RepresentationLearning.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
@@ -49,6 +73,7 @@ Paper Submission, arXiv, [Project Pages](https://thrillcrazyer.github.io/LoopUS)
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:LkGwnXOMwfcC'></span></strong>
 </div>
 </div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div class="badge">ICIC</div><img src='/images/LURKER.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
