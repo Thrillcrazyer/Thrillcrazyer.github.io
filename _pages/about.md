@@ -37,7 +37,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 # 📝 Publications 
 <sup>*</sup> indicates first author.
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">ICIC</div><img src='/images/Trie.png' alt="sym" width="100%"></div>
+<div class='paper-box'><div class='paper-box-image'><div class="badge">arXiv</div><img src='/images/Trie.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
 [**Trie-Constrained Token Prediction with Hierarchy-Aware Semantic Alignment for HS Code Prediction**](https://arxiv.org/abs/2608.04464)
@@ -50,7 +50,7 @@ Paper Submission, arXiv
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">ICIC</div><img src='/images/SamsungHeavyIndustry.png' alt="sym" width="100%"></div>
+<div class='paper-box'><div class='paper-box-image'><div class="badge">arXiv</div><img src='/images/SamsungHeavyIndustry.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
 [**Variable-Horizon Workforce Demand Forecasting with an Aggregate Demand Constraint for Construction Workforce Planning**](https://arxiv.org/abs/2608.05551)
