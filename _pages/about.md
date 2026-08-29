@@ -111,14 +111,14 @@ IEEE Case 2026, [Project Pages](https://thrillcrazyer.github.io/MaritimeRiskScen
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">Arxiv</div><img src='images/CDTLLM.png' alt="sym" width="100%"></div>
+<div class='paper-box'><div class='paper-box-image'><div class="badge">TR:E</div><img src='images/CDTLLM.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-[**Generative AI and Machine Learning Collaboration for Container Dwell Time Prediction via Data Standardization**](https://arxiv.org/abs/2602.20540)
+[**Generative AI and Machine Learning Collaboration for Container Dwell Time Prediction via Data Standardization**](https://www.sciencedirect.com/science/article/pii/S1366554526005090?via%3Dihub)
 
 Minseop Kim<sup>*</sup>, Takhyeong Kim,  <span style="color:#645495">**Taekhyun Park**</span>, Hanbyeol Park and Hyerim Bae
 
-Paper Submission
+Transportation Research Part E: Logistics and Transportation Review
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:eQOLeE2rZwMC'></span></strong>
 
