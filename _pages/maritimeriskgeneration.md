@@ -3,7 +3,7 @@ layout: project_page
 permalink: /MaritimeRiskScenarioGen
 
 title: "Design and Implementation of an LLM-Based Maritime Risk Scenario Generation System for Vessel Traffic Services"
-authors: "Taekhyun Park<sup>1</sup>, Sangmin Jo<sup>2</sup>,, Hyerim Bae<sup>2†</sup> and Dohee Kim<sup>3†</sup>"
+authors: "Taekhyun Park<sup>1</sup>, Sangmin Jo<sup>2</sup>,SeongMoon Hong<sup>1</sup>, Dohee Kim<sup>3†</sup>, Hyerim Bae<sup>2†</sup>"
 affiliations: "<sup>1</sup>Department of Data Science, Pusan National University, Busan, South Korea, <br><sup>2</sup>Department of Industrial Engineering, Pusan National University, Busan, South Korea, <br><sup>3</sup> Department of of AI Convergence Engineering, 
         Changwon National University, Changwon, South Korea<br>
         <sup>†</sup>Corresponding author"
@@ -70,8 +70,8 @@ interface for maritime safety management.
 ```
 @misc{park2026design,
   title={Design and Implementation of an LLM-Based Maritime Risk Scenario Generation System for Vessel Traffic Services},
-  author={Park, Taekhyun and Jo, Sangmin and Bae, Hyerim and Kim, Dohee},
-  journal={IEEE CASE 2026},
+  author={Park, Taekhyun and Hong, SeongMoon and Jo, Sangmin and Kim, Dohee and Bae, Hyerim},
+  conference={IEEE CASE 2026},
   year={2026}
 }
 ```
