@@ -129,3 +129,73 @@ h1:before, .anchor:before {
     margin-left: 0.1em;
     animation: texttype-blink 1s step-end infinite;
 }
+
+.blog-preview {
+    margin-top: 0.25rem;
+    border-top: 1px solid $border-color;
+
+    &__item {
+        display: grid;
+        padding: 1rem 0.35rem;
+        border-bottom: 1px solid $border-color;
+        color: $text-color;
+        text-decoration: none !important;
+        grid-template-columns: 6.5rem minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 1rem;
+        transition: color 0.15s ease, padding 0.15s ease;
+
+        &:hover {
+            padding-right: 0;
+            padding-left: 0.7rem;
+            color: $link-color;
+            text-decoration: none !important;
+        }
+
+        time {
+            color: $gray;
+            font-size: 0.82em;
+            font-variant-numeric: tabular-nums;
+        }
+    }
+
+    &__copy {
+        display: flex;
+        min-width: 0;
+        flex-direction: column;
+        gap: 0.18rem;
+
+        strong {
+            color: inherit;
+            font-weight: 600;
+        }
+
+        small {
+            display: block;
+            color: $gray;
+            line-height: 1.4;
+        }
+    }
+
+    &__arrow {
+        color: $light-gray;
+        font-size: 1.1em;
+    }
+
+    &__more {
+        margin-top: 0.8rem !important;
+        text-align: right;
+        font-size: 0.88em;
+    }
+
+    @media (max-width: 600px) {
+        &__item {
+            grid-template-columns: minmax(0, 1fr) auto;
+            gap: 0.35rem 0.75rem;
+
+            time {
+                grid-column: 1 / -1;
+            }
+        }
+    }
+}

@@ -201,3 +201,21 @@ Sensors and Materials & IMETI2024, [Project Pages](https://la-rcs.github.io/)
 
  [![HitCount](https://hits.dwyl.com/Thrillcrazyer/Thrillcrazyergithubio.svg?style=flat&show=unique)](http://hits.dwyl.com/Thrillcrazyer/Thrillcrazyergithubio)
 
+<span class='anchor' id='blog'></span>
+
+# ✍️ Blog
+
+<div class="blog-preview">
+{% for post in site.posts limit: 3 %}
+  <a class="blog-preview__item" href="{{ post.url | relative_url }}" target="_self">
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+    <span class="blog-preview__copy">
+      <strong>{{ post.title }}</strong>
+      {% if post.description %}<small>{{ post.description }}</small>{% endif %}
+    </span>
+    <span class="blog-preview__arrow" aria-hidden="true">→</span>
+  </a>
+{% endfor %}
+</div>
+
+<p class="blog-preview__more"><a href="{{ '/blog/' | relative_url }}" target="_self">View all posts →</a></p>

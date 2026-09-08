@@ -9,6 +9,8 @@
 title                    : "Taekhyun Park(朴澤炫)"
 description              : "Master's student, Graduate School of Data Science, Pusan National University, Korea"
 repository               : "Thrillcrazyer/Thrillcrazyer.github.io"
+url                      : "https://thrillcrazyer.github.io"
+baseurl                  : ""
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -128,6 +130,13 @@ defaults:
     values:
       layout: default
       author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: distill_post
+      author: "Taekhyun Park"
 
 
 # Sass/SCSS
@@ -137,8 +146,8 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
-timezone: KR # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+permalink: /blog/:year/:title/
+timezone: Asia/Seoul # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins

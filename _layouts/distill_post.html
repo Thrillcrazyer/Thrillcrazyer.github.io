@@ -1,0 +1,128 @@
+{% if page.bibliography %}
+  {% assign bibliography_source = page.bibliography %}
+  {% unless bibliography_source contains '/' %}
+    {% assign bibliography_source = bibliography_source | prepend: '/assets/bibliography/' %}
+  {% endunless %}
+{% endif %}
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+  <head>
+    {% include distill-head.html %}
+  </head>
+  <body class="distill-site distill-post-page">
+    {% include masthead.html reading_progress=true %}
+
+    {% assign word_count = content | strip_html | number_of_words %}
+    {% assign reading_minutes = word_count | divided_by: 220 %}
+    {% if reading_minutes < 1 %}{% assign reading_minutes = 1 %}{% endif %}
+
+    <main id="main-content" class="distill-post">
+      <header class="distill-title">
+        {% if page.tags and page.tags != empty %}
+        <p class="distill-kicker">
+          {% for tag in page.tags %}<span>{{ tag }}</span>{% unless forloop.last %}<span aria-hidden="true">·</span>{% endunless %}{% endfor %}
+        </p>
+        {% endif %}
+        <h1>{{ page.title }}</h1>
+        {% if page.description %}<p class="distill-dek">{{ page.description }}</p>{% endif %}
+      </header>
+
+      <section class="distill-byline-shell" aria-label="Article information">
+        <div class="distill-byline">
+          <div class="distill-byline__item distill-byline__item--authors">
+          <h2>{% if page.authors and page.authors.size > 1 %}Authors{% else %}Author{% endif %}</h2>
+          <p>
+            {% if page.authors %}
+              {% for person in page.authors %}
+                {% if person.url %}<a href="{{ person.url }}">{{ person.name | default: person.author }}</a>{% elsif person.authorURL %}<a href="{{ person.authorURL }}">{{ person.name | default: person.author }}</a>{% elsif person.name %}{{ person.name }}{% elsif person.author %}{{ person.author }}{% else %}{{ person }}{% endif %}{% unless forloop.last %}, {% endunless %}
+              {% endfor %}
+            {% else %}
+              {{ page.author | default: site.author.name }}
+            {% endif %}
+          </p>
+          </div>
+
+          <div class="distill-byline__item distill-byline__item--affiliation">
+          <h2>Affiliation</h2>
+          <p>
+            {% if page.affiliation %}
+              {{ page.affiliation }}
+            {% elsif page.authors %}
+              {% for person in page.authors %}
+                {% if person.affiliations %}
+                  {% if person.affiliations.name %}
+                    {% if person.affiliations.url %}<a href="{{ person.affiliations.url }}">{{ person.affiliations.name }}</a>{% else %}{{ person.affiliations.name }}{% endif %}
+                  {% else %}
+                    {% for organization in person.affiliations %}{% if organization.url %}<a href="{{ organization.url }}">{{ organization.name }}</a>{% elsif organization.name %}{{ organization.name }}{% else %}{{ organization }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+                  {% endif %}
+                {% elsif person.affiliation %}
+                  {{ person.affiliation }}
+                {% endif %}
+                {% unless forloop.last %}<br>{% endunless %}
+              {% endfor %}
+            {% else %}
+              {{ site.author.bio }}
+            {% endif %}
+          </p>
+          </div>
+
+          <div class="distill-byline__item">
+            <h2>Published</h2>
+            <p><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time></p>
+          </div>
+
+          <div class="distill-byline__item">
+            <h2>Reading time</h2>
+            <p>{{ reading_minutes }} min read</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="distill-grid">
+        <aside class="distill-toc" aria-label="Table of contents">
+          <details class="distill-toc__panel" open>
+            <summary>Contents</summary>
+            <nav data-table-of-contents></nav>
+          </details>
+        </aside>
+
+        <article class="distill-article">
+          {{ content }}
+          {% if page.bibliography %}
+          <d-citation-list class="distill-citation-list" hidden aria-live="polite"></d-citation-list>
+          {% endif %}
+        </article>
+      </div>
+
+      {% if page.bibliography %}
+        {% if bibliography_source contains '://' %}
+          <d-bibliography hidden src="{{ bibliography_source }}?v={{ page.bibliography_version | default: 1 }}"></d-bibliography>
+        {% else %}
+          <d-bibliography hidden src="{{ bibliography_source | relative_url }}?v={{ page.bibliography_version | default: 1 }}"></d-bibliography>
+        {% endif %}
+      {% endif %}
+
+      <nav class="distill-post-nav" aria-label="Blog post navigation">
+        {% if page.previous %}
+        <a class="distill-post-nav__post distill-post-nav__post--previous" href="{{ page.previous.url | relative_url }}" target="_self">
+          <span>Older post</span>
+          <strong>{{ page.previous.title }}</strong>
+        </a>
+        {% endif %}
+        <a class="distill-post-nav__all" href="{{ '/blog/' | relative_url }}" target="_self">All posts</a>
+        {% if page.next %}
+        <a class="distill-post-nav__post distill-post-nav__post--next" href="{{ page.next.url | relative_url }}" target="_self">
+          <span>Newer post</span>
+          <strong>{{ page.next.title }}</strong>
+        </a>
+        {% endif %}
+      </nav>
+    </main>
+
+    {% include distill-footer.html %}
+    <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+    <script defer src="{{ '/assets/js/distill.js' | relative_url }}"></script>
+    {% if page.bibliography %}<script defer src="{{ '/assets/js/distill-citations.js' | relative_url }}?v=3"></script>{% endif %}
+    {% include analytics.html %}
+  </body>
+</html>
