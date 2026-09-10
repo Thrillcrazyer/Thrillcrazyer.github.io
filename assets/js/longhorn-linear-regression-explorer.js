@@ -18,21 +18,21 @@
   let beta = Number(betaInput.value);
   let activeIndex = 0;
 
-  const featureAt = (index) => [1, -1 + (2 * index) / (observations.length - 1)];
+  const featureAt = (index) => [1, index + 1];
 
   const stateAt = (endIndex) => {
-    const firstFeature = featureAt(0);
-    const firstNormSquared = firstFeature[0] ** 2 + firstFeature[1] ** 2;
-    let state = firstFeature.map((value) => (observations[0] * value) / firstNormSquared);
+    let state = [0, 0];
     let latestResidual = 0;
 
-    for (let index = 1; index <= endIndex; index += 1) {
+    for (let index = 0; index <= endIndex; index += 1) {
       const feature = featureAt(index);
       const prediction = state[0] * feature[0] + state[1] * feature[1];
-      latestResidual = observations[index] - prediction;
+      const preUpdateResidual = observations[index] - prediction;
       const normSquared = feature[0] ** 2 + feature[1] ** 2;
       const stepSize = beta / (1 + beta * normSquared);
-      state = state.map((value, dimension) => value + stepSize * latestResidual * feature[dimension]);
+      state = state.map((value, dimension) => value + stepSize * preUpdateResidual * feature[dimension]);
+      const updatedPrediction = state[0] * feature[0] + state[1] * feature[1];
+      latestResidual = observations[index] - updatedPrediction;
     }
 
     return { state, latestResidual };
@@ -75,7 +75,7 @@
     context.beginPath();
     for (let point = 0; point <= 100; point += 1) {
       const sample = ((observations.length - 1) * point) / 100;
-      const feature = [1, -1 + (2 * sample) / (observations.length - 1)];
+      const feature = featureAt(sample);
       const value = state[0] * feature[0] + state[1] * feature[1];
       if (point === 0) {
         context.moveTo(xPosition(sample), yPosition(value));
