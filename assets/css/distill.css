@@ -1086,9 +1086,13 @@ d-bibliography {
     scroll-behavior: auto;
   }
 
-  *,
-  *::before,
-  *::after {
+  /* Keep the shared masthead's motion identical on About and Blog pages. */
+  :where(.distill-site main, .distill-footer),
+  :where(.distill-site main, .distill-footer)::before,
+  :where(.distill-site main, .distill-footer)::after,
+  :where(.distill-site main, .distill-footer) *,
+  :where(.distill-site main, .distill-footer) *::before,
+  :where(.distill-site main, .distill-footer) *::after {
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
