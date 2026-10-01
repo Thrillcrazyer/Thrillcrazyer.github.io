@@ -1,7 +1,9 @@
 ---
 layout: project_page
 permalink: /MaritimeRiskScenarioGen
-
+show_in_blog: true
+description: "An integrated framework combining maritime risk prediction and HyperGraph-based RAG to generate interpretable accident scenarios for Vessel Traffic Services."
+show_in_blog: true
 title: "Design and Implementation of an LLM-Based Maritime Risk Scenario Generation System for Vessel Traffic Services"
 authors: "Taekhyun Park<sup>1</sup>, Sangmin Jo<sup>2</sup>,SeongMoon Hong<sup>1</sup>, Dohee Kim<sup>3†</sup>, Hyerim Bae<sup>2†</sup>"
 affiliations: "<sup>1</sup>Department of Data Science, Pusan National University, Busan, South Korea, <br><sup>2</sup>Department of Industrial Engineering, Pusan National University, Busan, South Korea, <br><sup>3</sup> Department of of AI Convergence Engineering, 

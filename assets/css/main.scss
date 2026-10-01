@@ -152,7 +152,7 @@ h1:before, .anchor:before {
             text-decoration: none !important;
         }
 
-        time {
+        .blog-preview__meta {
             color: $gray;
             font-size: 0.82em;
             font-variant-numeric: tabular-nums;
@@ -193,7 +193,7 @@ h1:before, .anchor:before {
             grid-template-columns: minmax(0, 1fr) auto;
             gap: 0.35rem 0.75rem;
 
-            time {
+            .blog-preview__meta {
                 grid-column: 1 / -1;
             }
         }

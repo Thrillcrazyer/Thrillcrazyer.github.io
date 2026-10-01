@@ -208,9 +208,19 @@ Sensors and Materials & IMETI2024, [Project Pages](https://la-rcs.github.io/)
 # ✍️ Blog
 
 <div class="blog-preview">
-{% for post in site.posts limit: 3 %}
+{% assign recent_posts = site.posts | slice: 0, 3 %}
+{% assign blog_pages = site.pages | where: 'show_in_blog', true %}
+{% assign preview_entries = recent_posts | concat: blog_pages | concat: site.data.blog_links %}
+{% assign dated_entries = preview_entries | where_exp: 'entry', 'entry.date != nil' | sort: 'date' | reverse %}
+{% assign undated_entries = preview_entries | where_exp: 'entry', 'entry.date == nil' | sort: 'title' %}
+{% assign preview_entries = dated_entries | concat: undated_entries %}
+{% for post in preview_entries %}
   <a class="blog-preview__item" href="{{ post.url | relative_url }}" target="_self">
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+    {% if post.date %}
+    <time class="blog-preview__meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+    {% else %}
+    <span class="blog-preview__meta">Research</span>
+    {% endif %}
     <span class="blog-preview__copy">
       <strong>{{ post.title }}</strong>
       {% if post.description %}<small>{{ post.description }}</small>{% endif %}

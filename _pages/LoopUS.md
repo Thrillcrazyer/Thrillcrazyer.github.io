@@ -1,7 +1,9 @@
 ---
 layout: project_page
 permalink: /LoopUS
-
+show_in_blog: true
+description: "LoopUS converts pretrained LLMs into looped latent refinement models for efficient reasoning."
+show_in_blog: true
 title: "LoopUS: Recasting Pretrained LLMs into Looped Latent Refinement Models"
 authors: "Taekhyun Park<sup>1</sup>, Yongjae Lee<sup>2</sup>, Dohee Kim<sup>3</sup> and Hyerim Bae<sup>2†</sup>"
 affiliations: "<sup>1</sup>Department of Data Science, Pusan National University, Busan, South Korea, <br><sup>2</sup>Department of Industrial Engineering, Pusan National University, Busan, South Korea, <br><sup>3</sup> Department of of AI Convergence Engineering, 
