@@ -89,6 +89,7 @@ ICIC Express Letters & ICICIC 2025
 </div>
 </div>
 
+
 <div class='paper-box'><div class='paper-box-image'><div class="badge">ICIC</div><img src='/images/SangminJo.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
@@ -101,10 +102,11 @@ ICIC Express Letters & ICICIC 2025
 </div>
 </div>
 
+
 <div class='paper-box'><div class='paper-box-image'><div class="badge">CASE</div><img src='/images/framework.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-[**Design and Implementation of an LLM-Based Maritime Risk Scenario Generation System for Vessel Traffic Services**](https://thrillcrazyer.github.io/MaritimeRiskScenarioGen)
+[**Design and Implementation of an LLM-Based Maritime Risk Scenario Generation System for Vessel Traffic Services**](https://ieeexplore.ieee.org/abstract/document/11704279/)
 
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Sangmin Jo, Dohee Kim and Hyerim Bae
 
@@ -112,6 +114,9 @@ IEEE Case 2026, [Project Pages](https://thrillcrazyer.github.io/MaritimeRiskScen
 
 </div>
 </div>
+
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:YOwf2qJgpHMC'></span></strong>
+
 
 <div class='paper-box'><div class='paper-box-image'><div class="badge">TR:E</div><img src='images/CDTLLM.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
@@ -123,7 +128,6 @@ Minseop Kim<sup>*</sup>, Takhyeong Kim,  <span style="color:#645495">**Taekhyun 
 Transportation Research Part E: Logistics and Transportation Review
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:eQOLeE2rZwMC'></span></strong>
-
 </div>
 </div>
 
@@ -137,7 +141,6 @@ Minseop Kim<sup>*</sup>, Jaeeun Kwon, Hanbyeol Park,  Kikun Park, <span style="c
 Paper Submission
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:YsMSGLbcyi4C'></span></strong>
-
 </div>
 </div>
 
