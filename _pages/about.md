@@ -60,6 +60,8 @@ Paper Submission, arXiv
 Hanbyeol park<sup>*</sup> , Jaehyeon Heo<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span>, Minseong Kim and Hyerim Bae
 
 Paper Submission, arXiv
+
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:kNdYIx-mwKoC'></span></strong>
 </div>
 </div>
 
@@ -86,6 +88,8 @@ Seongmoon Hong<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span>
 
 ICIC Express Letters & ICICIC 2025
 
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:KlAtU1dfN6UC'></span></strong>
+
 </div>
 </div>
 
@@ -98,6 +102,8 @@ ICIC Express Letters & ICICIC 2025
 Sangmin Jo<sup>*</sup>, Dohee Kim, Seongmoon Hong, <span style="color:#645495">**Taekhyun Park**</span>, and Hyerim Bae
 
 ICIC Express Letters & ICICIC 2025
+
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:Zph67rFs4hoC'></span></strong>
 
 </div>
 </div>
@@ -112,10 +118,10 @@ ICIC Express Letters & ICICIC 2025
 
 IEEE Case 2026, [Project Pages](https://thrillcrazyer.github.io/MaritimeRiskScenarioGen)
 
-</div>
-</div>
-
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:YOwf2qJgpHMC'></span></strong>
+
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div class="badge">TR:E</div><img src='images/CDTLLM.png' alt="sym" width="100%"></div>
@@ -153,7 +159,7 @@ Yongjae Lee<sup>*</sup>, <span style="color:#645495">**Taekhyun Park**</span><su
 
 Paper Submission, arXiv, [code](https://github.com/Thrillcrazyer/THIP)
 
-<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:W7OEmFMy1HYC'></span></strong>
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:MXK_kJrjxJIC'></span></strong>
 
 </div>
 </div>
@@ -167,7 +173,7 @@ Paper Submission, arXiv, [code](https://github.com/Thrillcrazyer/THIP)
 
 The 13th IEEE International Conference on Big Data (**IEEE BigData 2025**)(acceptance rate: 18.7%) [code](https://github.com/Thrillcrazyer/JustDense)
 
-<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:UeHWp8X0CEIC'></span></strong>
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:5nxA0vEk-isC'></span></strong>
 
 </div>
 </div>
