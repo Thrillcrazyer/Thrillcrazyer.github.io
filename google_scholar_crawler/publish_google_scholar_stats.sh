@@ -36,7 +36,7 @@ for json_file in "${JSON_FILES[@]}"; do
 done
 
 if git -C "${REPO_ROOT}" ls-remote --exit-code --heads origin "${TARGET_BRANCH}" >/dev/null 2>&1; then
-  git -C "${REPO_ROOT}" fetch origin "${TARGET_BRANCH}"
+  git -C "${REPO_ROOT}" fetch origin "+refs/heads/${TARGET_BRANCH}:refs/remotes/origin/${TARGET_BRANCH}"
   TMP_WORKTREE="$(mktemp -d)"
   git -C "${REPO_ROOT}" worktree add -B "${TMP_BRANCH}" "${TMP_WORKTREE}" "origin/${TARGET_BRANCH}"
 else

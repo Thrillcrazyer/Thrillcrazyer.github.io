@@ -6,6 +6,13 @@ on:
  schedule:
   - cron:  '0 8 * * *'
 
+permissions:
+  contents: write
+
+concurrency:
+  group: google-scholar-stats
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,18 +25,8 @@ jobs:
     - name: Install Requirements
       run: |
         pip install -r google_scholar_crawler/requirements.txt
-    - name: Run Crawler
-      run: |
-        cd ./google_scholar_crawler
-        python main.py
+    - name: Crawl and publish citation data
+      run: bash google_scholar_crawler/publish_google_scholar_stats.sh
       env: 
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-    - name: Push Results
-      run: |
-        git config --global user.name "${GITHUB_ACTOR}"
-        git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-        git add google_scholar_crawler/results/*.json
-        git diff --staged --quiet || git commit -m "Updated Citation Data"
-        git push origin HEAD:google-scholar-stats --force
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PYTHON_BIN: python

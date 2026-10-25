@@ -9,7 +9,7 @@
 title                    : "Taekhyun Park(朴澤炫)"
 description              : "Master's student, Graduate School of Data Science, Pusan National University, Korea"
 repository               : "Thrillcrazyer/Thrillcrazyer.github.io"
-google_scholar_stats_use_cdn : true
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      : "G-YC8Y5FRFC7" # get google_analytics_id from https://analytics.google.com/analytics/
