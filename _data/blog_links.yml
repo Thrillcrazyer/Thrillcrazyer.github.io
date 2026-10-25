@@ -1,0 +1,4 @@
+- title: "LA-RCS: LLM-Agent Based Robot Control System"
+  url: "https://la-rcs.github.io/"
+  description: "A dual-agent robot control system that interprets natural language requests, plans tasks, and adapts to changes in its environment."
+  external: true

@@ -1,0 +1,196 @@
+.longhorn-regression-explorer {
+  --longhorn-ink: #252329;
+  --longhorn-muted: #6f6b76;
+  --longhorn-paper: #f1f0ec;
+  --longhorn-rule: #e4e1e7;
+  --longhorn-primary: #645495;
+  --longhorn-secondary: #c76b4b;
+  margin: 2.5rem 0;
+  color: var(--longhorn-ink);
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.longhorn-regression-explorer__intro {
+  margin-bottom: 1rem;
+}
+
+.longhorn-regression-explorer__eyebrow,
+.longhorn-regression-explorer__label,
+.longhorn-regression-explorer__count {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.longhorn-regression-explorer__eyebrow {
+  margin: 0 0 0.3rem;
+  color: var(--longhorn-primary);
+}
+
+.longhorn-regression-explorer__intro h4 {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+.longhorn-regression-explorer__intro p:last-child {
+  margin: 0.55rem 0 0;
+  color: var(--longhorn-muted);
+  line-height: 1.5;
+}
+
+.longhorn-regression-explorer__body {
+  position: relative;
+}
+
+.longhorn-regression-explorer__stage {
+  position: sticky;
+  top: 1rem;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(10rem, 0.6fr);
+  gap: clamp(1rem, 4vw, 2.5rem);
+  align-items: center;
+  padding: clamp(1rem, 3vw, 1.75rem);
+  border: 1px solid var(--longhorn-rule);
+  border-radius: 6px;
+  background: var(--longhorn-paper);
+}
+
+.longhorn-regression-explorer__chart-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.45rem;
+}
+
+.longhorn-regression-explorer__label {
+  color: var(--longhorn-ink);
+}
+
+.longhorn-regression-explorer__count {
+  color: var(--longhorn-muted);
+  text-align: right;
+}
+
+.longhorn-regression-explorer__canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  border-top: 1px solid var(--longhorn-rule);
+  border-bottom: 1px solid var(--longhorn-rule);
+}
+
+.longhorn-regression-explorer__legend {
+  display: flex;
+  gap: 1rem;
+  margin: 0.65rem 0 0;
+  color: var(--longhorn-muted);
+  font-size: 0.78rem;
+}
+
+.longhorn-regression-explorer__legend span::before {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.14rem;
+  margin-right: 0.35rem;
+  vertical-align: middle;
+  content: "";
+}
+
+.longhorn-regression-explorer__legend span:first-child::before { background: var(--longhorn-primary); }
+.longhorn-regression-explorer__legend span:last-child::before { background: var(--longhorn-secondary); }
+
+.longhorn-regression-explorer__state {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.longhorn-regression-explorer__beta-control {
+  display: grid;
+  gap: 0.4rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--longhorn-rule);
+}
+
+.longhorn-regression-explorer__beta-input {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 2.6rem;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.longhorn-regression-explorer__beta-input input {
+  width: 100%;
+  accent-color: var(--longhorn-primary);
+}
+
+.longhorn-regression-explorer__beta-input output {
+  color: var(--longhorn-primary);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+.longhorn-regression-explorer__parameter {
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--longhorn-rule);
+}
+
+.longhorn-regression-explorer__parameter:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.longhorn-regression-explorer__parameter-name {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--longhorn-muted);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.7rem;
+}
+
+.longhorn-regression-explorer__parameter-value {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.45rem;
+  font-weight: 600;
+}
+
+.longhorn-regression-explorer__residual {
+  color: var(--longhorn-muted);
+  font-size: 0.86rem;
+  line-height: 1.4;
+}
+
+.longhorn-regression-explorer__residual strong {
+  color: var(--longhorn-secondary);
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+}
+
+.longhorn-regression-explorer__steps {
+  height: 420svh;
+  pointer-events: none;
+}
+
+.longhorn-regression-explorer__step {
+  min-height: 70svh;
+}
+
+@media (max-width: 640px) {
+  .longhorn-regression-explorer__stage {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .longhorn-regression-explorer__steps {
+    height: 360svh;
+  }
+
+  .longhorn-regression-explorer__step {
+    min-height: 60svh;
+  }
+}

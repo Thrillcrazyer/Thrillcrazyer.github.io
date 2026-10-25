@@ -21,6 +21,8 @@ redirect_from:
 
 I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate School of Data Science, Pusan National University, Korea.<a href='https://scholar.google.com/citations?user=qQyhAiwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
+**Open Position:** I am currently seeking Ph.D. opportunities aligned with my research interests.
+
 <small>You can find my CV <a href="/assets/pdf/resume.pdf" target="_blank" rel="noopener">here</a>.</small>
 
 # 📌 Research Interests
@@ -87,6 +89,7 @@ ICIC Express Letters & ICICIC 2025
 </div>
 </div>
 
+
 <div class='paper-box'><div class='paper-box-image'><div class="badge">ICIC</div><img src='/images/SangminJo.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
@@ -99,10 +102,11 @@ ICIC Express Letters & ICICIC 2025
 </div>
 </div>
 
+
 <div class='paper-box'><div class='paper-box-image'><div class="badge">CASE</div><img src='/images/framework.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-[**Design and Implementation of an LLM-Based Maritime Risk Scenario Generation System for Vessel Traffic Services**](https://thrillcrazyer.github.io/MaritimeRiskScenarioGen)
+[**Design and Implementation of an LLM-Based Maritime Risk Scenario Generation System for Vessel Traffic Services**](https://ieeexplore.ieee.org/abstract/document/11704279/)
 
 <span style="color:#645495">**Taekhyun Park**</span><sup>*</sup>, Sangmin Jo, Dohee Kim and Hyerim Bae
 
@@ -111,17 +115,19 @@ IEEE Case 2026, [Project Pages](https://thrillcrazyer.github.io/MaritimeRiskScen
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">Arxiv</div><img src='images/CDTLLM.png' alt="sym" width="100%"></div>
+<strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:YOwf2qJgpHMC'></span></strong>
+
+
+<div class='paper-box'><div class='paper-box-image'><div class="badge">TR:E</div><img src='images/CDTLLM.png' alt="sym" width="100%"></div>
 <div class='paper-box-text' markdown="1">
 
-[**Generative AI and Machine Learning Collaboration for Container Dwell Time Prediction via Data Standardization**](https://arxiv.org/abs/2602.20540)
+[**Generative AI and Machine Learning Collaboration for Container Dwell Time Prediction via Data Standardization**](https://www.sciencedirect.com/science/article/pii/S1366554526005090?via%3Dihub)
 
 Minseop Kim<sup>*</sup>, Takhyeong Kim,  <span style="color:#645495">**Taekhyun Park**</span>, Hanbyeol Park and Hyerim Bae
 
-Paper Submission
+Transportation Research Part E: Logistics and Transportation Review
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:eQOLeE2rZwMC'></span></strong>
-
 </div>
 </div>
 
@@ -135,7 +141,6 @@ Minseop Kim<sup>*</sup>, Jaeeun Kwon, Hanbyeol Park,  Kikun Park, <span style="c
 Paper Submission
 
 <strong><span class='show_paper_citations' data='qQyhAiwAAAAJ:YsMSGLbcyi4C'></span></strong>
-
 </div>
 </div>
 
@@ -201,3 +206,31 @@ Sensors and Materials & IMETI2024, [Project Pages](https://la-rcs.github.io/)
 
  [![HitCount](https://hits.dwyl.com/Thrillcrazyer/Thrillcrazyergithubio.svg?style=flat&show=unique)](http://hits.dwyl.com/Thrillcrazyer/Thrillcrazyergithubio)
 
+<span class='anchor' id='blog'></span>
+
+# ✍️ Blog
+
+<div class="blog-preview">
+{% assign recent_posts = site.posts | slice: 0, 3 %}
+{% assign blog_pages = site.pages | where: 'show_in_blog', true %}
+{% assign preview_entries = recent_posts | concat: blog_pages | concat: site.data.blog_links %}
+{% assign dated_entries = preview_entries | where_exp: 'entry', 'entry.date != nil' | sort: 'date' | reverse %}
+{% assign undated_entries = preview_entries | where_exp: 'entry', 'entry.date == nil' | sort: 'title' %}
+{% assign preview_entries = dated_entries | concat: undated_entries %}
+{% for post in preview_entries %}
+  <a class="blog-preview__item" href="{{ post.url | relative_url }}" target="_self">
+    {% if post.date %}
+    <time class="blog-preview__meta" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+    {% else %}
+    <span class="blog-preview__meta">Research</span>
+    {% endif %}
+    <span class="blog-preview__copy">
+      <strong>{{ post.title }}</strong>
+      {% if post.description %}<small>{{ post.description }}</small>{% endif %}
+    </span>
+    <span class="blog-preview__arrow" aria-hidden="true">→</span>
+  </a>
+{% endfor %}
+</div>
+
+<p class="blog-preview__more"><a href="{{ '/blog/' | relative_url }}" target="_self">View all posts →</a></p>
