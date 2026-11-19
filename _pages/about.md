@@ -25,6 +25,7 @@ I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate Schoo
 
 <small>You can find my CV <a href="/assets/pdf/resume.pdf" target="_blank" rel="noopener">here</a>.</small>
 
+
 # 📌 Research Interests
 - **Novel Architectures**: JEPA, Deep Supervision, State Space Model with Deep Learning , Looped LLM
 - **Sequence Modeling**: Time Series, Language, Video, Event Log
@@ -210,8 +211,6 @@ Sensors and Materials & IMETI2024, [Project Pages](https://la-rcs.github.io/)
 - *2024.01 - 2024.03*, DeepLogicChain, Seoul.
 
 
- [![HitCount](https://hits.dwyl.com/Thrillcrazyer/Thrillcrazyergithubio.svg?style=flat&show=unique)](http://hits.dwyl.com/Thrillcrazyer/Thrillcrazyergithubio)
-
 <span class='anchor' id='blog'></span>
 
 # ✍️ Blog
@@ -240,3 +239,12 @@ Sensors and Materials & IMETI2024, [Project Pages](https://la-rcs.github.io/)
 </div>
 
 <p class="blog-preview__more"><a href="{{ '/blog/' | relative_url }}" target="_self">View all posts →</a></p>
+
+<p align="center">
+  <a href="https://github.com/TOKENPHAGE">
+    <img src="https://api.tokenphage.com/badge/Thrillcrazyer?theme=grass-claude" alt="Tokenphage" style="width: 100%; height: auto;">
+  </a>
+</p>
+
+
+ [![HitCount](https://hits.dwyl.com/Thrillcrazyer/Thrillcrazyergithubio.svg?style=flat&show=unique)](http://hits.dwyl.com/Thrillcrazyer/Thrillcrazyergithubio)
