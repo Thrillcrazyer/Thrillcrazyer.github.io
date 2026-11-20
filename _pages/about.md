@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# Taekhyun Park (박택현)
+# Taekhyun Park (Piáo Zéxuàn, 박택현)
 
 I'm a Master's student at [BAELAB](https://pnubaelab.github.io/), Graduate School of Data Science, Pusan National University, Korea.<a href='https://scholar.google.com/citations?user=qQyhAiwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
