@@ -240,9 +240,10 @@ Sensors and Materials & IMETI2024, [Project Pages](https://la-rcs.github.io/)
 
 <p class="blog-preview__more"><a href="{{ '/blog/' | relative_url }}" target="_self">View all posts →</a></p>
 
+
 <p align="center">
   <a href="https://github.com/TOKENPHAGE">
-    <img src="https://api.tokenphage.com/badge/Thrillcrazyer?theme=grass-claude" alt="Tokenphage" style="width: 100%; height: auto;">
+    <img src="https://thrillcrazyer.github.io/tokenphage-badge-proxy/badges/Thrillcrazyer-grass-claude.svg" alt="TokenPhage" style="width: 100%; height: auto;">
   </a>
 </p>
 
